@@ -1,0 +1,3936 @@
+{
+    "Phagocytosis": {
+        "label": "Phagocytosis",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0006909"
+            ],
+            "Reactome": [
+                "R-HSA-114553",
+                "R-HSA-2029480",
+                "R-HSA-2029482",
+                "R-HSA-216083"
+            ],
+            "KEGG": [
+                "hsa04666",
+                "hsa04145",
+                "hsa04620"
+            ],
+            "MSigDB": [
+                "KEGG_FC_GAMMA_R_MEDIATED_PHAGOCYTOSIS"
+            ]
+        },
+        "gate_core": [
+            {
+                "gene": "FCGR2A",
+                "why": "Mediates phagocytosis and endocytosis through PTK activation and immune complex internalization.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000143226"
+            },
+            {
+                "gene": "SYK",
+                "why": "SYK kinase is recruited downstream of Fc receptors and is required for actin polymerization during phagocytosis.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000165025"
+            },
+            {
+                "gene": "FGR",
+                "why": "Src-family tyrosine kinase that phosphorylates ITAMs to initiate SYK docking",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000000938"
+            },
+            {
+                "gene": "LYN",
+                "why": "Src-family kinase recruited to phosphorylated ITAMs to propagate signaling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000254087"
+            },
+            {
+                "gene": "HCK",
+                "why": "Src-family kinase acting downstream of FcgammaR ITAMs",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000101336"
+            },
+            {
+                "gene": "FYN",
+                "why": "Src-family kinase contributing to early FcgammaR signaling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000010810"
+            },
+                        {
+                "gene": "RAC1",
+                "why": "Rho-family GTPase that drives actin assembly for cup formation and extension",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000136238"
+            },
+            {
+                "gene": "CDC42",
+                "why": "Rho-family GTPase initiating actin polymerization and pseudopod extension",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000070831"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "FCGR1A",
+                "why": "Fc receptor initiates phagocytosis through interaction with the  gamma subunit and activation of downstream kinases.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000150337"
+            },
+            {
+                "gene": "YES1",
+                "why": "Src-family kinase contributing to FcgammaR signaling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000176105"
+            },
+            {
+                "gene": "VAV1",
+                "why": "GEF activating RAC1/CDC42 at cup",
+                "evidence": "https://doi.org/10.1016/j.cub.2021.01.036",
+                "ensembl_id": "ENSG00000141968"
+            },
+            {
+                "gene": "VAV2",
+                "why": "Rho-GEF activating RAC/CDC42",
+                "evidence": "https://doi.org/10.1016/j.cub.2021.01.036",
+                "ensembl_id": "ENSG00000160293"
+            },
+            {
+                "gene": "VAV3",
+                "why": "Rho-GEF activating RAC/CDC42",
+                "evidence": "https://doi.org/10.1016/j.cub.2021.01.036",
+                "ensembl_id": "ENSG00000134215"
+            },
+            {
+                "gene": "PIK3CG",
+                "why": "PI3K gamma catalytic subunit generating PIP3 for cup closure and actin remodeling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000105851"
+            },
+            {
+                "gene": "PIK3C2G",
+                "why": "PI3K class II catalytic subunit contributing to phagocytic signaling lipids",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000139144"
+            },
+            {
+                "gene": "PTEN",
+                "why": "PIP3 phosphatase counterbalancing PI3K signaling during cup dynamics",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000171862"
+            },
+            {
+                "gene": "GAB2",
+                "why": "Adaptor amplifying PI3K signal during nascent phagosome closure",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000033327"
+            },
+            {
+                "gene": "AKT1",
+                "why": "Effector kinase downstream of PI3K that supports cytoskeletal and membrane remodeling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000142208"
+            },
+            {
+                "gene": "AKT2",
+                "why": "PI3K-dependent effector contributing to phagocytic responses",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000105221"
+            },
+            {
+                "gene": "AKT3",
+                "why": "PI3K-dependent effector contributing to phagocytic responses",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000117020"
+            },
+            {
+                "gene": "PLA2G6",
+                "why": "cPLA2 producing arachidonic acid that promotes phagosome closure/fusion",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000184381"
+            },
+            {
+                "gene": "PLD1",
+                "why": "Phospholipase D driving membrane remodeling during particle internalization",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000075651"
+            },
+            {
+                "gene": "PLD2",
+                "why": "Phospholipase D isoform contributing to internalization",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000129219"
+            },
+            {
+                "gene": "PRKCB",
+                "why": "PKC Beta activated downstream of PLC to promote closure and fusion",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000166501"
+            },
+            {
+                "gene": "PRKCA",
+                "why": "PKC Alfa isoform supporting phagosome sealing",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000154229"
+            },
+            {
+                "gene": "PRKCD",
+                "why": "PKC D isoform modulating phagocytic signaling",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000163932"
+            },
+            {
+                "gene": "PRKCE",
+                "why": "PKC E isoform modulating phagocytic signaling",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000171132"
+            },
+            {
+                "gene": "RAC2",
+                "why": "Hematopoietic RAC isoform supporting cup actin dynamics",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000128340"
+            },
+            {
+                "gene": "RAC3",
+                "why": "RAC isoform contributing to actin remodeling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000169750"
+            },
+            
+            {
+                "gene": "PAK1",
+                "why": "PAK kinase activated by RAC/CDC42 to coordinate actin assembly",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000149269"
+            },
+            {
+                "gene": "DOCK1",
+                "why": "RAC GEF cooperating with CRKII to activate RAC and promote actin polymerization",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000150760"
+            },
+            {
+                "gene": "NCK1",
+                "why": "Adaptor linking phosphorylated receptors/SYK to actin-assembly machinery",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000158092"
+            },
+            {
+                "gene": "NCK2",
+                "why": "Adaptor linking FcgammaR signaling to actin nucleation modules",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000071051"
+            },
+            {
+                "gene": "LCP2",
+                "why": "SLP-76 adaptor in the VASP/FYB/SLP-76 complex that promotes actin polymerization",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000043462"
+            },
+            {
+                "gene": "FYB1",
+                "why": "FYB/SLAP adaptor scaffolding VASP and actin nucleation at the nascent phagosome",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000082074"
+            },
+            {
+                "gene": "VASP",
+                "why": "Actin elongation factor within the FYB/SLP-76 complex aiding pseudopod extension",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000125753"
+            },
+            {
+                "gene": "WAS",
+                "why": "WASP family NPF activating the ARP2/3 complex for branched actin",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000015285"
+            },
+            {
+                "gene": "ARPC1A",
+                "why": "ARP2/3 complex subunit required for branched actin nucleation",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000241685"
+            },
+            {
+                "gene": "ARPC1B",
+                "why": "ARP2/3 complex subunit required for branched actin nucleation (hematopoietic)",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000130429"
+            },
+            {
+                "gene": "ARPC2",
+                "why": "ARP2/3 core subunit enabling actin branch formation",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000163466"
+            },
+            {
+                "gene": "ARPC3",
+                "why": "ARP2/3 core subunit enabling actin branch formation",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000111229"
+            },
+            {
+                "gene": "ARPC4",
+                "why": "ARP2/3 core subunit enabling actin branch formation",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000241553"
+            },
+            {
+                "gene": "ARPC5",
+                "why": "ARP2/3 core subunit enabling actin branch formation",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000162704"
+            },
+            {
+                "gene": "ARPC5L",
+                "why": "ARP2/3 subunit variant supporting branched actin nucleation",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000136950"
+            },
+            {
+                "gene": "ARF6",
+                "why": "Small GTPase promoting actin assembly and membrane recycling to the cup",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000165527"
+            },
+            {
+                "gene": "RAB11A",
+                "why": "Recycling endosome GTPase delivering membrane to the phagocytic cup",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000103769"
+            },
+            {
+                "gene": "RAB11B",
+                "why": "Recycling endosome GTPase delivering membrane to the phagocytic cup",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000185236"
+            },
+            {
+                "gene": "VAMP3",
+                "why": "v-SNARE mediating membrane addition from recycling endosomes",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000049245"
+            },
+            {
+                "gene": "PTK2B",
+                "why": "PYK2 tyrosine kinase supporting cytoskeletal reorganization at the cup",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000120899"
+            },
+            {
+                "gene": "PXN",
+                "why": "Focal adhesion adaptor coordinating actintomembrane linkage",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000089159"
+            },
+            {
+                "gene": "TLN2",
+                "why": "Talin paralog contributing to actintomembrane linkage",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000171914"
+            },
+            {
+                "gene": "EZR",
+                "why": "ERM family linker stabilizing membranetoactin connections at the phagosome",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000092820"
+            },
+            {
+                "gene": "MAPK1",
+                "why": "ERK2 downstream kinase modulating phagocytic responses",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000100030"
+            },
+            {
+                "gene": "MAPK3",
+                "why": "ERK1 downstream kinase modulating phagocytic responses",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000102882"
+            },
+            {
+                "gene": "MAPK14",
+                "why": "p38 MAPK supporting inflammatory/structural responses during phagocytosis",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000112062"
+            },
+            {
+                "gene": "INPP5D",
+                "why": "SHIP1 phosphatase shaping phosphoinositide balance during phagocytosis",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000168918"
+            },
+            {
+                "gene": "PIP5K1A",
+                "why": "PI(4,5)P2 synthesis at the membrane to support actin dynamics and scission",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000143398"
+            },
+            {
+                "gene": "NAPEPLD",
+                "why": "Lipid enzyme contributing bioactive lipid signals in phagocytosis",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000161048"
+            },
+            {
+                "gene": "CBL",
+                "why": "E3 ubiquitin ligase modulating receptor/kinase signaling",
+                "evidence": "https://doi.org/10.1189/jlb.72.6.1092",
+                "ensembl_id": "ENSG00000110395"
+            },
+            {
+                "gene": "ACTA1",
+                "why": "actin alpha 1, skeletal muscle",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000143632"
+            },
+            {
+                "gene": "ACTA2",
+                "why": "actin alpha 2, smoth muscle",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000107796"
+            },
+            {
+                "gene": "ACTB",
+                "why": "actin beta",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000075624"
+            },
+            {
+                "gene": "ACTC1",
+                "why": "actin alpha cardiac muscle 1",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000159251"
+            },
+            {
+                "gene": "ACTG1",
+                "why": "actin alpha gamma 1",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000184009"
+            },
+            {
+                "gene": "ACTG2",
+                "why": "actin alpha gamma 2, smooth muscle",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000163017"
+            },
+            {
+                "gene": "ACTR2",
+                "why": "actin related protein 2",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000138071"
+            },
+            {
+                "gene": "ACTR3",
+                "why": "actin related protein 3",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000115091"
+            },
+            {
+                "gene": "CSF2",
+                "why": "colony stimulating factor 2",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000164400"
+            },
+            {
+                "gene": "DGKB",
+                "why": "regulators of the intracellular concentration of the second messenger diacylglycerol (DAG)",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000136267"
+            },
+            {
+                "gene": "GPLD1",
+                "why": "Glycosylphosphatidylinositol specific phospholipase D1 hydrolyzes the inositol phosphate linkage in proteins anchored by phosphatidylinositol glycans, thereby releasing the attached protein from the plasma membrane.",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000112293"
+            },
+            {
+                "gene": "HMOX1",
+                "why": "Heme oxygenase 1",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000100292"
+            },
+            {
+                "gene": "NCF1",
+                "why": "neutrophil cytosolic factor 1",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000158517"
+            },
+            {
+                "gene": "PLD3",
+                "why": "Phospholipase D isoform contributing to internalization",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000105223"
+            },
+            {
+                "gene": "PLD4",
+                "why": "Phospholipase D isoform contributing to internalization",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000166428"
+            },
+            {
+                "gene": "PLD5",
+                "why": "Phospholipase D isoform contributing to internalization",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000180287"
+            },
+            {
+                "gene": "PLD6",
+                "why": "Phospholipase D isoform contributing to internalization",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000179598"
+            },
+            {
+                "gene": "PRKCG",
+                "why": "PKC gamma activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000126583"
+            },
+            {
+                "gene": "PRKCH",
+                "why": "PKC eta activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000027075"
+            },
+            {
+                "gene": "PRKCI",
+                "why": "PKC iota activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000163558"
+            },
+            {
+                "gene": "PRKCQ",
+                "why": "PKC theta activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000065675"
+            },
+            {
+                "gene": "PRKCZ",
+                "why": "PKC zeta activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000067606"
+            },
+            {
+                "gene": "PRKD1",
+                "why": "PKC D1 activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000184304"
+            },
+            {
+                "gene": "PRKD3",
+                "why": "PKC D3 activated downstream of PLC to promote closure and fusion",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000115825"
+            },
+            {
+                "gene": "RPS6KB1",
+                "why": "S6 kinase family of serine/threonine kinases. The encoded protein responds to mTOR (mammalian target of rapamycin) signaling to promote protein synthesis, cell growth, and cell proliferation.",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000108443"
+            },
+            {
+                "gene": "RPS6KB2",
+                "why": "S6 kinase family of serine/threonine kinases. The encoded protein responds to mTOR (mammalian target of rapamycin) signaling to promote protein synthesis, cell growth, and cell proliferation.",
+                "evidence": "https://doi.org/10.1182/blood.V32.3.423.423",
+                "ensembl_id": "ENSG00000175634"
+            },
+            {
+                "gene": "RAB5A",
+                "why": "Regulates early phagosome maturation through vesicle fusion and trafficking.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000144566"
+            },
+            {
+                "gene": "RAB7A",
+                "why": "Involved in late-stage phagosome maturation and lysosomal fusion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000075785"
+            },
+            {
+                "gene": "MYO1A",
+                "why": "myosin IA-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000166866"
+            },
+            {
+                "gene": "MYO1B",
+                "why": "myosin IB-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000128641"
+            },
+            {
+                "gene": "MYO1C",
+                "why": "myosin IC-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000197879"
+            },
+            {
+                "gene": "MYO1D",
+                "why": "myosin ID-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000176658"
+            },
+            {
+                "gene": "MYO1E",
+                "why": "myosin IE-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000157483"
+            },
+            {
+                "gene": "MYO1F",
+                "why": "myosin IF-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000142347"
+            },
+            {
+                "gene": "MYO1G",
+                "why": "myosin IG-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000136286"
+            },
+            {
+                "gene": "MYO1H",
+                "why": "myosin IH-Motor protein that colocalizes with actin on phagosomes; facilitates mechanical ingestion.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000174527"
+            },
+            {
+                "gene": "GNAL",
+                "why": "G alfas: G protein subunits alpha, group s-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000141404"
+            },
+            {
+                "gene": "GNAS",
+                "why": "G alfa: G protein subunits alpha, group s-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000087460"
+            },
+            {
+                "gene": "GNAI1",
+                "why": "G protein subunit alpha i1- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000127955"
+            },
+            {
+                "gene": "GNAI2",
+                "why": "G protein subunit alpha i2- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000114353"
+            },
+            {
+                "gene": "GNAI3",
+                "why": "G protein subunit alpha i3- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000065135"
+            },
+            {
+                "gene": "GNB1",
+                "why": "G protein subunit beta 1- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000078369"
+            },
+            {
+                "gene": "GNB2",
+                "why": "G protein subunit beta 2- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000172354"
+            },
+            {
+                "gene": "GNB3",
+                "why": "G protein subunit beta 3- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000111664"
+            },
+            {
+                "gene": "GNB4",
+                "why": "G protein subunit beta 4- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000114450"
+            },
+            {
+                "gene": "GNB5",
+                "why": "G protein subunit beta 5- Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000069966"
+            },
+            {
+                "gene": "GNGT1",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000127928"
+            },
+            {
+                "gene": "GNGT2",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000167083"
+            },
+            {
+                "gene": "GNG2",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000186469"
+            },
+            {
+                "gene": "GNG3",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000162188"
+            },
+            {
+                "gene": "GNG4",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000168243"
+            },
+            {
+                "gene": "GNG5",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000174021"
+            },
+            {
+                "gene": "GNG7",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000176533"
+            },
+            {
+                "gene": "GNG8",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000167414"
+            },
+            {
+                "gene": "GNG10",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000242616"
+            },
+            {
+                "gene": "GNG11",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000127920"
+            },
+            {
+                "gene": "GNG12",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000172380"
+            },
+            {
+                "gene": "GNG13",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000127588"
+            },
+            {
+                "gene": "GNG14",
+                "why": "G gamma-Heterotrimeric G-proteins that regulate vesicle trafficking and fusion during phagosome maturation.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000283980"
+            },
+            {
+                "gene": "TLR4",
+                "why": "Toll-like receptor 4 detects LPS and triggers macrophage activation and pro-inflammatory response, aiding phagocytosis.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "ensembl_id": "ENSG00000136869"
+            },
+            {
+                "gene": "MYD88",
+                "why": "Adaptor protein downstream of TLR4; activates NF-kB pathway involved in enhancing phagocytic response.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "ensembl_id": "ENSG00000172936"
+            },
+            {
+                "gene": "NFKB1",
+                "why": "Transcription factor that upregulates phagocytic machinery and inflammatory mediators.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "ensembl_id": "ENSG00000109320"
+            },
+            {
+                "gene": "CYBB",
+                "why": "Essential for respiratory burst in phagosomes, leading to microbial killing.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "ensembl_id": "ENSG00000165168"
+            },
+            {
+                "gene": "MARCKS",
+                "why": "Acts as an actin cross-linker; required for efficient phagosome formation and cytoskeletal reorganization.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000277443"
+            },
+            {
+                "gene": "ZAP70",
+                "why": "Can substitute SYK functionally in engineered systems to initiate phagocytic signaling.",
+                "evidence": "10.1016/S0952-7915(96)80102-6",
+                "ensembl_id": "ENSG00000115085"
+            }
+        ],
+        "context_negative": [
+            {
+                "name": "Amiloride",
+                "type": "drug (Na+/H+ exchanger inhibitor)",
+                "dose": "50-500 microM",
+                "why": "Blocks Na+/H+ exchange, preventing ruffle closure and cup formation required for macropinocytosis.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:2639"
+            },
+            {
+                "name": "EIPA (5-(N-ethyl-N-isopropyl) amiloride)",
+                "type": "drug (amiloride analog)",
+                "dose": "25-50 microM",
+                "why": "Potent derivative of amiloride that specifically inhibits macropinocytosis by disrupting Na+/H+ exchange.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:233428"
+            },
+            {
+                "name": "Cytochalasin D",
+                "type": "chemical (fungal metabolite)",
+                "dose": "0.5-10 microM",
+                "why": "Binds to actin filaments and blocks polymerization, preventing ruffle and cup formation.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:529996"
+            },
+            {
+                "name": "Latrunculin B",
+                "type": "chemical (marine toxin)",
+                "dose": "0.1-5 microM",
+                "why": "Sequesters actin monomers, preventing actin filament assembly required for macropinocytosis.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:49703"
+            },
+            {
+                "name": "Wortmannin",
+                "type": "chemical (PI3K inhibitor)",
+                "dose": "10-100 nM",
+                "why": "Blocks PI3K signaling, which is essential for closure of macropinocytic cups.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:52289"
+            },
+            {
+                "name": "LY294002",
+                "type": "chemical (PI3K inhibitor)",
+                "dose": "10-50 microM",
+                "why": "Another PI3K inhibitor that reduces PIP3 signaling and prevents macropinosome closure.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:65329"
+            },
+            {
+                "name": "Rottlerin",
+                "type": "chemical (PKC δ inhibitor, plant-derived)",
+                "dose": "1-10 microM",
+                "why": "Reported to block macropinocytosis through PKC-dependent actin remodeling.",
+                "evidence": "10.1016/j.imlet.2016.07.009",
+                "CHEBI": "CHEBI:8899"
+            }
+        ]
+
+    },
+    "Macropinocytosis": {
+        "label": "Macropinocytosis",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0044351",
+                "hsa04810"
+            ],
+            "Reactome": [
+                "R-HSA-8854222"
+            ],
+            "KEGG": [
+                "KO: K17917",
+                "KO: K17920"
+            ],
+            "MSigDB": [
+                "GOBP_MACROPINOCYTOSIS"
+            ]
+        },
+        "gate_core": [
+            {
+                "gene": "PIK3CA",
+                "why": "Catalytic subunit of Class I PI3K - PIP3 signaling commonly required for cup formation/closure",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000121879"
+            },
+            {
+                "gene": "PIK3CB",
+                "why": "Catalytic subunit of Class I PI3K - PIP3 signaling commonly required for cup formation/closure",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000051382"
+            },
+            {
+                "gene": "PIK3CD",
+                "why": "Catalytic subunit of Class I PI3K - PIP3 signaling commonly required for cup formation/closure",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000171608"
+            },
+            {
+                "gene": "PIK3R1",
+                "why": "Regulatory subunit of Class I PI3K - PIP3 signaling commonly required for cup formation/closure",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000145675"
+            },
+            {
+                "gene": "RAC1",
+                "why": "drives membrane ruffles/cup formation; recruited by oncogenic RAS to V ATPase",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000136238"
+            },
+            {
+                "gene": "CDC42",
+                "why": "GTPase controlling actin polymerization at cup",
+                "evidence": "https://doi.org/10.1016/j.cub.2021.01.036",
+                "ensembl_id": "ENSG00000070831"
+            },
+            {
+                "gene": "PAK1",
+                "why": "Ser/Thr kinase activated by RAC/CDC42 to coordinate actin assembly and cup closure",
+                "evidence": "doi: 10.1091/mbc.11.10.3341",
+                "ensembl_id": "ENSG00000149269"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "PLCG1",
+                "why": "PLCgamma1 produces DAG/IP3 to activate PKC and calcium signaling for ruffling/closure",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000124181"
+            },
+            {
+                "gene": "MET",
+                "why": "HGF receptor RTK that triggers ruffling and fluid-phase uptake",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000105976"
+            },
+            {
+                "gene": "EGFR",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000146648"
+            },
+            {
+                "gene": "CSF1R",
+                "why": "RTK for CSF1 that activates PI3K to RAC/PAK signaling to induce ruffling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000182578"
+            },
+            {
+                "gene": "MRC1",
+                "why": "Mannose receptor that can trigger processive macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000260314"
+            },
+            {
+                "gene": "CD14",
+                "why": "Pattern-recognition co-receptor that can trigger processive macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000170458"
+            },
+            {
+                "gene": "CSF1",
+                "why": "Ligand that primes macrophages and can stimulate macropinocytosis via RTK signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000184371"
+            },
+            {
+                "gene": "HGF",
+                "why": "RTK ligand activating MET to stimulate ruffling and fluid uptake",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000019991"
+            },
+            {
+                "gene": "EGF",
+                "why": "RTK ligand driving growth-factortoinduced (recycling) macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000138798"
+            },
+            {
+                "gene": "NGF",
+                "why": "RTK ligand that induces recycling macropinocytosis via Trk signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000134259"
+            },
+            {
+                "gene": "ITGA5",
+                "why": "Integrin alpha5 subunit that can trigger processive macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000161638"
+            },
+            {
+                "gene": "ITGB1",
+                "why": "Integrin beta1 subunit mediating adhesion cues that drive macropinocytic cups",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000150093"
+            },
+            {
+                "gene": "ITGB2",
+                "why": "Integrin beta2 subunit contributing to processive macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000160255"
+            },
+            {
+                "gene": "ITGB3",
+                "why": "Integrin beta3 subunit linked to macropinocytic signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000259207"
+            },
+            {
+                "gene": "ITGB4",
+                "why": "Integrin beta4 subunit associated with macropinocytosis triggers",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000132470"
+            },
+            {
+                "gene": "ITGB5",
+                "why": "Integrin beta5 subunit that can promote ruffle formation",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000082781"
+            },
+            {
+                "gene": "ITGB6",
+                "why": "Integrin beta6 subunit implicated in processive macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000115221"
+            },
+            {
+                "gene": "ITGB7",
+                "why": "Integrin beta7 subunit contributing to macropinocytosis signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000139626"
+            },
+            {
+                "gene": "ITGB8",
+                "why": "Integrin beta8 subunit contributing to macropinocytic responses",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000105855"
+            },
+            {
+                "gene": "PIK3R2",
+                "why": "Regulatory subunit of Class I PI3K - PIP3 signaling commonly required for cup formation/closure",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000105647"
+            },
+            {
+                "gene": "PIK3R3",
+                "why": "Regulatory subunit of Class I PI3K - PIP3 signaling commonly required for cup formation/closure",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000117461"
+            },
+            {
+                "gene": "RAB5A",
+                "why": "vital for regulating the early stages of endocytosis and endosome fusion in eukaryotic cells",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000144566"
+            },
+            {
+                "gene": "PRKCZ",
+                "why": "aPKC/Par polarity axis facilitating dynein dependent macropinocytosis",
+                "evidence": "https://doi.org/10.1038/s41467-024-54788-9",
+                "ensembl_id": "ENSG00000067606"
+            },
+            {
+                "gene": "PRKCI",
+                "why": "aPKC/Par polarity axis facilitating dynein dependent macropinocytosis",
+                "evidence": "https://doi.org/10.1038/s41467-024-54788-9",
+                "ensembl_id": "ENSG00000163558"
+            },
+            {
+                "gene": "ARF6",
+                "why": "PSD4 (EFA6B) and SDC1 axis in KRAS models",
+                "evidence": "DOI: 10.1091/mbc.E19-01-0022",
+                "ensembl_id": "ENSG00000165527"
+            },
+            {
+                "gene": "VASP",
+                "why": "is an actin polymerase, which interacts with Scar/WAVE, also localizes to the cup edges",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000125753"
+            },
+            {
+                "gene": "ABI1",
+                "why": "Abl/Scar/WAVE complex adaptor coordinating actin remodeling during ruffle formation",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000136754"
+            },
+            {
+                "gene": "ACTN4",
+                "why": "Actin crosslinker stabilizing cortical actin in ruffles and cups",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000130402"
+            },
+            {
+                "gene": "ANKFY1",
+                "why": "FYVE-domain protein linking endosomal PI3P membranes to trafficking of macropinosomes",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000185722"
+            },
+            {
+                "gene": "ERAS",
+                "why": "RAS-family GTPase promoting PI3K signaling linked to macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000187682"
+            },
+            {
+                "gene": "HRAS",
+                "why": "RAS GTPase that activates PI3K and actin effectors to form ruffles",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000174775"
+            },
+            {
+                "gene": "KRAS",
+                "why": "RAS GTPase strongly linked to PI3K-driven macropinocytosis",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000133703"
+            },
+            {
+                "gene": "MRAS",
+                "why": "RAS-family GTPase contributing to RTK to PI3K signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000158186"
+            },
+            {
+                "gene": "NRAS",
+                "why": "RAS-family GTPase activating PI3K and actin modulators",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000213281"
+            },
+            
+            {
+                "gene": "PIK3C2A",
+                "why": "Class II PI3K producing phosphoinositides for membrane remodeling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000011405"
+            },
+            {
+                "gene": "PIK3C2B",
+                "why": "Class II PI3K supporting ruffle/cup membrane dynamics",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000133056"
+            },
+            {
+                "gene": "PIK3C2G",
+                "why": "Class II PI3K isoform shaping phosphoinositide pools in macropinosomes",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000139144"
+            },
+            {
+                "gene": "PIK3C3",
+                "why": "Class III PI3K (Vps34) generating PI3P on macropinosomes",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000078142"
+            },
+            {
+                "gene": "PIK3CG",
+                "why": "Class I PI3K catalytic gamma subunit contributing to ruffle formation",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000105851"
+            },
+            {
+                "gene": "PIK3R4",
+                "why": "Regulatory subunit for class III PI3K complex",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000196455"
+            },
+            {
+                "gene": "PIK3R5",
+                "why": "Regulatory subunit (p101) for PI3Kgamma complex",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000141506"
+            },
+            {
+                "gene": "PIK3R6",
+                "why": "Regulatory subunit (p87) for PI3Kgamma complex",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000276231"
+            },
+            {
+                "gene": "PLCG2",
+                "why": "Hematopoietic PLCgamma isoform contributing to macropinocytic signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000197943"
+            },
+            {
+                "gene": "PRKCA",
+                "why": "PKCalpha isoform regulating membrane and actin dynamics",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000154229"
+            },
+            {
+                "gene": "PRKCB",
+                "why": "PKCbeta isoform promoting closure and membrane remodeling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000166501"
+            },
+            {
+                "gene": "PRKCD",
+                "why": "PKCdelta isoform modulating macropinocytic signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000163932"
+            },
+            {
+                "gene": "PRKCE",
+                "why": "PKCepsilon isoform supporting ruffle dynamics",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000171132"
+            },
+            {
+                "gene": "PRKCG",
+                "why": "PKCgamma isoform with supportive roles in signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000126583"
+            },
+            {
+                "gene": "PRKCH",
+                "why": "PKCeta isoform modulating ruffle/cup formation",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000027075"
+            },
+            {
+                "gene": "PRKCQ",
+                "why": "PKCtheta isoform regulating cytoskeletal responses",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000065675"
+            },
+            {
+                "gene": "PRKD1",
+                "why": "PKD1 acting downstream of DAG/PKC in membrane trafficking",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000184304"
+            },
+            {
+                "gene": "PRKD3",
+                "why": "PKD3 supporting macropinosome maturation/traffic",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000115825"
+            },
+            {
+                "gene": "RAB34",
+                "why": "Rab GTPase implicated in ruffle dynamics and macropinosome movement",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000109113"
+            },
+            {
+                "gene": "RALA",
+                "why": "Ral GTPase regulating membrane trafficking of macropinosomes",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000006451"
+            },
+            {
+                "gene": "RALB",
+                "why": "Ral GTPase with roles in macropinosome formation/traffic",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000144118"
+            },
+            {
+                "gene": "RAP1A",
+                "why": "Rap GTPase modulating integrin/actin signaling in ruffles",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000116473"
+            },
+            {
+                "gene": "RAP1B",
+                "why": "Rap GTPase paralog with overlapping functions",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000127314"
+            },
+            {
+                "gene": "RAP2A",
+                "why": "Rap2 GTPase regulating membrane remodeling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000125249"
+            },
+            {
+                "gene": "RAP2B",
+                "why": "Rap2 GTPase paralog contributing to ruffle dynamics",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000181467"
+            },
+            {
+                "gene": "RASD1",
+                "why": "RAS-related GTPase linked to macropinocytic signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000108551"
+            },
+            {
+                "gene": "RASD2",
+                "why": "RASD-family GTPase with supportive signaling roles",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000100302"
+            },
+            {
+                "gene": "RHOA",
+                "why": "Rho GTPase regulating actomyosin contractility for cup closure",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000067560"
+            },
+            {
+                "gene": "RRAS",
+                "why": "RAS-family GTPase supporting integrin/PI3K signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000126458"
+            },
+            {
+                "gene": "RRAS2",
+                "why": "RRAS paralog participating in macropinocytosis signaling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000133818"
+            },
+            {
+                "gene": "SRC",
+                "why": "Src-family kinase activity that licenses macropinocytic ruffling",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000197122"
+            },
+            {
+                "gene": "USP6NL",
+                "why": "TBC/RabGAP-like protein regulating endocytic membrane dynamics",
+                "evidence": "https://doi.org/10.1111/j.1600-0854.2009.00878.x",
+                "ensembl_id": "ENSG00000148429"
+            },
+            {
+                "gene": "TPCN1",
+                "why": "macropinosome shrinkage",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000186815"
+            },
+            {
+                "gene": "TPCN2",
+                "why": "macropinosome shrinkage",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000162341"
+            },
+            {
+                "gene": "PACC1",
+                "why": "macropinosome shrinkage",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000065600"
+            },
+            {
+                "gene": "SNX1",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000028528"
+            },
+            {
+                "gene": "SNX2",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000205302"
+            },
+            {
+                "gene": "SNX4",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000114520"
+            },
+            {
+                "gene": "AMPH",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000078053"
+            },
+            {
+                "gene": "ARHGAP17",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000140750"
+            },
+            {
+                "gene": "ARHGAP44",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000006740"
+            },
+            {
+                "gene": "BIN1",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000136717"
+            },
+            {
+                "gene": "BIN2",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000110934"
+            },
+            {
+                "gene": "BIN3",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000147439"
+            },
+            {
+                "gene": "SH3BP1",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000100092"
+            },
+            {
+                "gene": "SH3GL1",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000141985"
+            },
+            {
+                "gene": "SH3GL2",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000107295"
+            },
+            {
+                "gene": "SH3GL3",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000140600"
+            },
+            {
+                "gene": "SH3GLB1",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000097033"
+            },
+            {
+                "gene": "SH3GLB2",
+                "why": "curvature sensing, membrane tubulation, recycling",
+                "evidence": "https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000148341"
+            }
+        ],
+        "context_negative": [
+            {
+                "name": "Imipramine",
+                "type": "Drug (tricyclic antidepressant)",
+                "dose": "IC50 almost equal to 131 nM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:47499"
+            },
+            {
+                "name": "Phenoxybenzamine",
+                "type": "Drug (alpha-adrenergic antagonist)",
+                "dose": "IC50 almost equal to 44 nM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:8077"
+            },
+            {
+                "name": "Vinblastine",
+                "type": "Drug (microtubule formation inhibitor; anticancer agent)",
+                "dose": "IC50 almost equal to 2.2 pM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:27375"
+            },
+            {
+                "name": "Auranofin",
+                "type": "Drug (anti-rheumatoid arthritis agent)",
+                "dose": "IC50 almost equal to 733 nM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:2922"
+            },
+            {
+                "name": "Itraconazole",
+                "type": "Drug (antifungal medicine)",
+                "dose": "IC50 almost equal to 106 nM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:6076"
+            },
+            {
+                "name": "Flubendazole",
+                "type": "Drug (anthelmintic)",
+                "dose": "IC50 almost equal to 240 nM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:77095"
+            },
+            {
+                "name": "Terfenadine",
+                "type": "Drug (antihistamine)",
+                "dose": "IC50 almost equal to 301 nM",
+                "evidence": "https://doi.org/10.1111/bph.14439",
+                "CHEBI": "CHEBI:9453"
+            },
+            {
+                "name": "Cytochalasin D",
+                "type": "Chemical (fungal metabolite, actin polymerization inhibitor)",
+                "dose": "Typically 0.1–10 µM in cell-based assays",
+                "evidence": "Tool compound widely used in macropinocytosis and phagocytosis inhibition studies; see e.g. DOI:10.1083/jcb.200106064",
+                "CHEBI": "CHEBI:529996"
+            }
+        ]
+    },
+    "Clathrin-mediated endocytosis": {
+        "label": "Clathrin-dependent endocytosis (CME)",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0072583"
+            ],
+            "Reactome": [
+                "R-HSA-8856828",
+                "R-HSA-8856825",
+                "R-HSA-8856808",
+                "R-HSA-8868661"
+            ],
+            "KEGG": [],
+            "MSigDB": [
+                "REACTOME_CLATHRIN_MEDIATED_ENDOCYTOSIS"
+            ]
+        },
+        "gate_core": [
+            {
+                "gene": "FCHO1",
+                "why": "pit initiation/curvature priming",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000130475"
+            },
+            {
+                "gene": "FCHO2",
+                "why": "pit initiation/curvature priming",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000157107"
+            },
+            {
+                "gene": "EPS15",
+                "why": "Scaffold protein involved in early endocytic site formation and cargo recognition.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000085832"
+            },
+            {
+                "gene": "ITSN1",
+                "why": "Multidomain scaffolding protein regulating actin and vesicle trafficking proteins.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000205726"
+            },
+                        {
+                "gene": "PIP5K1C",
+                "why": "phosphatidylinositol-4-phosphate 5-kinase type 1 gamma",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000186111"
+            },
+            {
+                "gene": "AP2A1",
+                "why": "adaptor complex required for cargo engagement",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000196961"
+            },
+            {
+                "gene": "AP2A2",
+                "why": "adaptor complex subunit",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000183020"
+            },
+            {
+                "gene": "AP2B1",
+                "why": "adaptor complex subunit",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000006125"
+            },
+            {
+                "gene": "CLTA",
+                "why": "Forms the coat around endocytic vesicles and is essential for membrane curvature and cargo encapsulation.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000122705"
+            },
+            {
+                "gene": "CLTB",
+                "why": "Forms the coat around endocytic vesicles and is essential for membrane curvature and cargo encapsulation.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000175416"
+            },
+            {
+                "gene": "CLTC",
+                "why": "coat that shapes pits/vesicles; essential for curvature and coat",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000141367"
+            },
+            {
+                "gene": "DNM2",
+                "why": "GTPase required for vesicle fission",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000079805"
+            } 
+        ],
+        "regulators": [
+            {
+                "gene": "TFRC",
+                "why": "Transferrin canonical receptor CME ligand/cargo",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000072274"
+            },
+            {
+                "gene": "F2R",
+                "why": "PAR1 GPCR cargo internalized through CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000181104"
+            },
+            {
+                "gene": "PIP",
+                "why": "Prolactin-induced protein cargo/context in CME lists",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000159763"
+            },
+            {
+                "gene": "IGF1",
+                "why": "Ligand for IGF1R drives receptor internalization",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000017427"
+            },
+            {
+                "gene": "EGF",
+                "why": "Ligand stimulates RTK internalization via CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000138798"
+            },
+            {
+                "gene": "ARRB1",
+                "why": "beta-arrestin 1 adaptor for GPCR cargo and CCP maturation",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000137486"
+            },
+            {
+                "gene": "ARRB2",
+                "why": "beta-arrestin 2 paralog; GPCR cargo adaptor",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000141480"
+            },
+            
+            {
+                "gene": "CLTCL1",
+                "why": "Clathrin heavy chain-like 1 (CHC22) associated with endocytic trafficking",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000070371"
+            },
+            {
+                "gene": "AP2M1",
+                "why": "adaptor complex subunit",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000161203"
+            },
+            {
+                "gene": "AP2S1",
+                "why": "adaptor complex subunit",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000042753"
+            },
+            {
+                "gene": "AP3B1",
+                "why": "AP-3 beta1 subunit endosome/lysosome trafficking for CME cargo",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000132842"
+            },
+            {
+                "gene": "SNX9",
+                "why": "sorting nexin 9",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000130340"
+            },
+            {
+                "gene": "PICALM",
+                "why": "CALM: Adaptor protein that interacts with AP2 and is involved in cargo sorting and linked to Alzheimer's disease risk.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000073921"
+            },
+            {
+                "gene": "SNAP91",
+                "why": "synaptosome associated protein 91 ",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000065609"
+            },
+            {
+                "gene": "AMPH",
+                "why": "amphiphysin: BAR domain protein that cooperates with dynamin in vesicle scission.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000078053"
+            },
+            {
+                "gene": "MET",
+                "why": "MET proto-oncogene, receptor tyrosine kinase",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000105976"
+            },
+            {
+                "gene": "ITGA5",
+                "why": "integrin subunit alpha 5",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000161638"
+            },
+            {
+                "gene": "HIP1",
+                "why": "huntingtin interacting protein 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000127946"
+            },
+            {
+                "gene": "HIP1R",
+                "why": "Links clathrin to the actin cytoskeleton, facilitating endocytic site stability.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000130787"
+            },
+            {
+                "gene": "EPHB2",
+                "why": "Receptor tyrosine kinase internalized via CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000133216"
+            },
+            {
+                "gene": "DNM1",
+                "why": "GTPase responsible for vesicle neck constriction and scission; the xA splice variant is crucial for ultrafast endocytosis.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000106976"
+            },
+            {
+                "gene": "AAK1",
+                "why": "AP2 associated kinase 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000115977"
+            },
+            {
+                "gene": "ACTB",
+                "why": "Actin Beta",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000075624"
+            },
+            {
+                "gene": "ACTA1",
+                "why": "Skeletal actin contributing to CME-associated actin networks",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000143632"
+            },
+            {
+                "gene": "ACTA2",
+                "why": "Smooth-muscle actin variant incorporated in cortical networks",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000107796"
+            },
+            {
+                "gene": "ACTC1",
+                "why": "Cardiac actin isoform listed for actin network composition",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000159251"
+            },
+            {
+                "gene": "ACTG2",
+                "why": "Smooth-muscle gamma-actin variant present in CME actin structures",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000163017"
+            },
+            {
+                "gene": "ALB",
+                "why": "Albumin cargo/context protein internalized via receptor pathways linked to CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000163631"
+            },
+            {
+                "gene": "AP1G2",
+                "why": "AP-1 gamma2 subunit post-endocytic/sorting adaptor complex component",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000213983"
+            },
+            {
+                "gene": "ACTR2",
+                "why": "ARP2: branched actin for pit maturation",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000138071"
+            },
+            {
+                "gene": "ACTR3",
+                "why": "ARP3: branched actin for pit maturation",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000115091"
+            },
+            {
+                "gene": "AP1B1",
+                "why": "AP-1 micro1 subunit for endosomal/TGN sorting after CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000100280"
+            },
+            {
+                "gene": "AP1G1",
+                "why": "AP-1 micro1 subunit for endosomal/TGN sorting after CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000166747"
+            },
+            {
+                "gene": "AP1M1",
+                "why": "AP-1 micro1 subunit for endosomal/TGN sorting after CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000072958"
+            },
+            {
+                "gene": "AP1M2",
+                "why": "AP-1 micro2 subunit in post-endocytic sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000129354"
+            },
+            {
+                "gene": "AP1S1",
+                "why": "AP-1 sigma1 subunit in endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000106367"
+            },
+            {
+                "gene": "AP1S2",
+                "why": "AP-1 sigma2 subunit in endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000182287"
+            },
+            {
+                "gene": "AP1S3",
+                "why": "AP-1 sigma3 subunit in endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000152056"
+            },
+            {
+                "gene": "AP3B2",
+                "why": "AP-3 beta2 subunit endosome/lysosome trafficking for CME cargo",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000103723"
+            },
+            {
+                "gene": "AP3D1",
+                "why": "AP-3 delta subunit sorting to late endosome/lysosome compartments",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000065000"
+            },
+            {
+                "gene": "AP3M1",
+                "why": "AP-3 micro1 subunit endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000185009"
+            },
+            {
+                "gene": "AP3M2",
+                "why": "AP-3 micro2 subunit endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000070718"
+            },
+            {
+                "gene": "AP3S1",
+                "why": "AP-3 sigma1 subunit endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000177879"
+            },
+            {
+                "gene": "AP3S2",
+                "why": "AP-3 sigma2 subunit endosomal sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000157823"
+            },
+            {
+                "gene": "AP4B1",
+                "why": "AP-4 beta subunit post-Golgi/endosomal routes for CME cargo",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000134262"
+            },
+            {
+                "gene": "AP4E1",
+                "why": "AP-4 E subunit post-Golgi/endosomal routes for CME cargo",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000081014"
+            },
+            {
+                "gene": "AP4M1",
+                "why": "AP-4 micro subunit cargo sorting beyond early endosomes",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000221838"
+            },
+            {
+                "gene": "AP4S1",
+                "why": "AP-4 sigma subunit post-endocytic sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000100478"
+            },
+            {
+                "gene": "AP5B1",
+                "why": "AP-5 beta subunit late endosome/lysosome sorting network",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000254470"
+            },
+            {
+                "gene": "AP5M1",
+                "why": "AP-5 micro subunit late endosomal trafficking",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000053770"
+            },
+            {
+                "gene": "AP5S1",
+                "why": "AP-5 sigma subunit late endosomal trafficking",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000125843"
+            },
+            {
+                "gene": "AP5Z1",
+                "why": "AP-5 zeta subunit late endosomal trafficking",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000242802"
+            },
+            {
+                "gene": "APOA1",
+                "why": "Apolipoprotein ligand/cargo A1 context for receptor-mediated CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000118137"
+            },
+            {
+                "gene": "APOA2",
+                "why": "Apolipoprotein ligand/cargo context for receptor-mediated CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000158874"
+            },
+            {
+                "gene": "APOA4",
+                "why": "Apolipoprotein A-IV cargo context for lipoprotein receptor uptake",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000110244"
+            },
+            {
+                "gene": "APOB",
+                "why": "Apolipoprotein B cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000084674"
+            },
+            {
+                "gene": "APOE",
+                "why": "Apolipoprotein E cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000130203"
+            },
+            {
+                "gene": "APOC1",
+                "why": "Apolipoprotein cargo context in lipoprotein internalization",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000130208"
+            },
+            {
+                "gene": "APOC2",
+                "why": "Apolipoprotein cargo context in CME of lipoproteins",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000234906"
+            },
+            {
+                "gene": "APOC3",
+                "why": "Apolipoprotein cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000110245"
+            },
+            {
+                "gene": "APOC4",
+                "why": "Apolipoprotein cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000267467"
+            },
+            {
+                "gene": "APOD",
+                "why": "Apolipoprotein D cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000189058"
+            },
+            {
+                "gene": "APOF",
+                "why": "Apolipoprotein F cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000175336"
+            },
+            {
+                "gene": "APOL1",
+                "why": "Apolipoprotein L1 cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000100342"
+            },
+            {
+                "gene": "APOM",
+                "why": "Apolipoprotein M cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000204444"
+            },
+            {
+                "gene": "ARF6",
+                "why": "ADP ribosylation factor 6",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000165527"
+            },
+            {
+                "gene": "ARPC1A",
+                "why": "actin related protein 2/3 complex subunit 1A ",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000241685"
+            },
+            {
+                "gene": "ARPC1B",
+                "why": "actin related protein 2/3 complex subunit 1B",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000130429"
+            },
+            {
+                "gene": "ARPC2",
+                "why": "actin related protein 2/3 complex subunit 2",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000163466"
+            },
+            {
+                "gene": "ARPC3",
+                "why": "actin related protein 2/3 complex subunit 3",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000111229"
+            },
+            {
+                "gene": "ARPC4",
+                "why": "actin related protein 2/3 complex subunit 4",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000241553"
+            },
+            {
+                "gene": "ARPC5",
+                "why": "actin related protein 2/3 complex subunit 5",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000162704"
+            },
+            {
+                "gene": "ARPC5L",
+                "why": "ARPC5-like subunit supporting ARP2/3 branching at CCPs",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000136950"
+            },
+            {
+                "gene": "CBL",
+                "why": "E3 ligase tuning receptor/kinase signaling thresholds in CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000110395"
+            },
+            {
+                "gene": "CD2AP",
+                "why": "Adaptor linking membrane/cargo to actin at CCPs",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000198087"
+            },
+            {
+                "gene": "CDC42",
+                "why": "Rho GTPase coordinating actin assembly at late CCPs",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000070831"
+            },
+            {
+                "gene": "CHP1",
+                "why": "EF-hand protein modulating calcineurin/ion signaling during endocytosis",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000187446"
+            },
+            {
+                "gene": "CLU",
+                "why": "Clusterin cargo/context protein associated with receptor uptake",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000120885"
+            },
+            {
+                "gene": "CSNK2A1",
+                "why": "Casein kinase 2 catalytic alpha1 subunit phosphoregulation of endocytic proteins",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000101266"
+            },
+            {
+                "gene": "CSNK2A2",
+                "why": "CK2 catalytic alpha2 phosphorylation control in CME network",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000070770"
+            },
+            {
+                "gene": "CSNK2A3",
+                "why": "CK2 alpha3 listed kinase impacting CME protein phosphorylation",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000254598"
+            },
+            {
+                "gene": "CSNK2B",
+                "why": "CK2 regulatory beta subunit modulates CK2 activity in CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000263020"
+            },
+            {
+                "gene": "CTTN",
+                "why": "Cortactin",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000085733"
+            },
+            {
+                "gene": "DAB2",
+                "why": "Dynamin-related protein 1 mitochondrial/vesicular dynamics; listed in CME context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000153071"
+            },
+            {
+                "gene": "DNM1L",
+                "why": "Dynamin-related protein 1 mitochondrial/vesicular dynamics; listed in CME context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000087470"
+            },
+            {
+                "gene": "DNM3",
+                "why": "GTPase required for vesicle fission",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000197959"
+            },
+            {
+                "gene": "EPN1",
+                "why": "epsin: adaptor; curvature",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000063245"
+            },
+            {
+                "gene": "F2",
+                "why": "Thrombin ligand context for receptor internalization",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000180210"
+            },
+            {
+                "gene": "GAK",
+                "why": "cyclin G associated kinase",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000178950"
+            },
+            {
+                "gene": "GRB2",
+                "why": "Adaptor linking RTKs to endocytic scaffolds",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000177885"
+            },
+            {
+                "gene": "HGS",
+                "why": "ESCRT-0 component sorting ubiquitinated cargo post-CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000185359"
+            },
+            {
+                "gene": "HSPA8",
+                "why": "heat shock protein family A (Hsp70) member 8",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000109971"
+            },
+            {
+                "gene": "LDLR",
+                "why": "low density lipoprotein receptor ",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000130164"
+            },
+            {
+                "gene": "LDLRAP1",
+                "why": "low density lipoprotein receptor adaptor protein 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000157978"
+            },
+            {
+                "gene": "LPA",
+                "why": "Lipoprotein(a) cargo context for receptor-mediated uptake",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000198670"
+            },
+            {
+                "gene": "LYZ",
+                "why": "Lysozyme secreted cargo context in CME lists",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000090382"
+            },
+            {
+                "gene": "MDM2",
+                "why": "E3 ligase intersecting with receptor signaling/trafficking",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000135679"
+            },
+            {
+                "gene": "MYO1E",
+                "why": "Myosin-I motor assisting membrane/actin coupling at CCPs",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000157483"
+            },
+            {
+                "gene": "MYO6",
+                "why": "Myosin-VI motor assisting membrane/actin coupling at CCPs",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000196586"
+            },
+            {
+                "gene": "NUMB",
+                "why": "NUMB endocytic adaptor protein",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000133961"
+            },
+            {
+                "gene": "ORM1",
+                "why": "Orosomucoid 1 cargo/context protein",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000229314"
+            },
+            {
+                "gene": "ORM2",
+                "why": "Orosomucoid 2 cargo/context protein",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000228278"
+            },
+            {
+                "gene": "PCYOX1",
+                "why": "Prenylcysteine oxidase lipid/cargo context listed for CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000116005"
+            },
+            {
+                "gene": "PIK3C2A",
+                "why": "phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000011405"
+            },
+            {
+                "gene": "PIK3C2B",
+                "why": "phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000133056"
+            },
+            {
+                "gene": "PIK3C2G",
+                "why": "phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000139144"
+            },
+            {
+                "gene": "PIK3C3",
+                "why": "phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 3",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000078142"
+            },
+            {
+                "gene": "PIK3CA",
+                "why": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000121879"
+            },
+            {
+                "gene": "PIK3CB",
+                "why": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000051382"
+            },
+            {
+                "gene": "PIK3CD",
+                "why": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000171608"
+            },
+            {
+                "gene": "PIK3CG",
+                "why": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000105851"
+            },
+            {
+                "gene": "PIK3R1",
+                "why": "phosphoinositide-3-kinase regulatory subunit 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000145675"
+            },
+            {
+                "gene": "PIK3R2",
+                "why": "phosphoinositide-3-kinase regulatory subunit 2",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000105647"
+            },
+            {
+                "gene": "PIK3R3",
+                "why": "phosphoinositide-3-kinase regulatory subunit 3",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000117461"
+            },
+            {
+                "gene": "PIK3R4",
+                "why": "phosphoinositide-3-kinase regulatory subunit 4",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000196455"
+            },
+            {
+                "gene": "PIK3R5",
+                "why": "phosphoinositide-3-kinase regulatory subunit 5",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000141506"
+            },
+            {
+                "gene": "PIK3R6",
+                "why": "phosphoinositide-3-kinase regulatory subunit 6",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000276231"
+            },
+            {
+                "gene": "PON1",
+                "why": "Paraoxonase lipoprotein-associated cargo context",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000005421"
+            },
+            {
+                "gene": "PPP3CA",
+                "why": "Calcineurin catalytic alpha Ca2+/calcineurin signaling affecting endocytosis",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000138814"
+            },
+            {
+                "gene": "PPP3CB",
+                "why": "Calcineurin catalytic beta regulates dephosphorylation of endocytic targets",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000107758"
+            },
+            {
+                "gene": "PPP3CC",
+                "why": "Calcineurin catalytic gamma listed regulator of CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000120910"
+            },
+            {
+                "gene": "PPP3R1",
+                "why": "Calcineurin B (regulatory) alpha modulates calcineurin complex",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000221823"
+            },
+            {
+                "gene": "PPP3R2",
+                "why": "Calcineurin B (regulatory) beta modulates calcineurin complex",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000188386"
+            },
+            {
+                "gene": "RAB7A",
+                "why": "Rab GTPase controlling late endocytic traffic after CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000075785"
+            },
+            {
+                "gene": "RAC1",
+                "why": "Rac family small GTPase 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000136238"
+            },
+            {
+                "gene": "RBP4",
+                "why": "Retinol-binding protein cargo/context for receptor uptake",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000138207"
+            },
+            {
+                "gene": "RPS27A",
+                "why": "Ubiquitintoribosomal fusion protein; ubiquitin supply for sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000143947"
+            },
+            {
+                "gene": "S100A8",
+                "why": "S100 protein listed inflammatory/cargo context in CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000143546"
+            },
+            {
+                "gene": "SAA4",
+                "why": "Serum amyloid A4 cargo/context protein in the list",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000148965"
+            },
+            {
+                "gene": "SERPINA1",
+                "why": "serpin family A member 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000197249"
+            },
+            {
+                "gene": "SH3BP4",
+                "why": "SH3 domain binding protein 4",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000130147"
+            },
+            {
+                "gene": "SH3GL1",
+                "why": "SH3 domain containing GRB2 like 1, endophilin A2",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000141985"
+            },
+            {
+                "gene": "SH3GL2",
+                "why": "SH3 domain containing GRB2 like 2, endophilin A2",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000107295"
+            },
+            {
+                "gene": "SH3GL3",
+                "why": "SH3 domain containing GRB2 like 3, endophilin A2",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000140600"
+            },
+            {
+                "gene": "SH3GLB1",
+                "why": "Endophilin-B1 BAR protein impacting endosomal trafficking post-CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000097033"
+            },
+            {
+                "gene": "SH3GLB2",
+                "why": "Endophilin-B2 paralog in endocytic trafficking",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000148341"
+            },
+            {
+                "gene": "SH3KBP1",
+                "why": "SH3 domain containing kinase binding protein 1",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000147010"
+            },
+            {
+                "gene": "SRC",
+                "why": "Stonin 2 cargo adaptor (e.g., synaptotagmin) in CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000197122"
+            },
+            {
+                "gene": "STAM",
+                "why": "ESCRT-0 adaptor in ubiquitinated cargo sorting after CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000136738"
+            },
+            {
+                "gene": "STON2",
+                "why": "Stonin 2 cargo adaptor (e.g., synaptotagmin) in CME",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000140022"
+            },
+            {
+                "gene": "SYNJ1",
+                "why": "This gene encodes a phosphoinositide phosphatase that regulates levels of membrane phosphatidylinositol-4,5-bisphosphate.",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000159082"
+            },
+            {
+                "gene": "TF",
+                "why": "Transferrin canonical CME ligand/cargo",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000091513"
+            },
+            {
+                "gene": "TSG101",
+                "why": "ESCRT-I component for post-CME sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000074319"
+            },
+            {
+                "gene": "UBA52",
+                "why": "Ubiquitintoribosomal fusion protein; ubiquitin source for endocytic sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000221983"
+            },
+            {
+                "gene": "UBB",
+                "why": "Polyubiquitin B ubiquitin pool for trafficking/sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000170315"
+            },
+            {
+                "gene": "UBC",
+                "why": "Polyubiquitin C ubiquitin pool for trafficking/sorting",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000150991"
+            },
+            {
+                "gene": "UBD",
+                "why": "Ubiquitin D ubiquitin-like modifier in sorting pathways",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000213886"
+            },
+            {
+                "gene": "USP9X",
+                "why": "Deubiquitinase regulating endocytic cargo fate",
+                "evidence": "https://doi.org/10.1038/nrm.2017.132",
+                "ensembl_id": "ENSG00000124486"
+            },
+            {
+                "gene": "WASL",
+                "why": "N-WASP: actin nucleation with ARP2/3",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000106299"
+            },
+            
+            {
+                "gene": "PACSIN1",
+                "why": "Syndapin I: F-BAR domain protein that helps stabilize membrane curvature and recruits dynamin.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000124507"
+            },
+            {
+                "gene": "PACSIN2",
+                "why": "Syndapin II:BAR-domain scaffold",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000100266"
+            },
+            {
+                "gene": "BIN1",
+                "why": "(Amphiphysin 2) Although not essential for ultrafast CME, it's involved in endosomal budding and APP trafficking, and linked to Alzheimer's.",
+                "evidence": "doi:10.1152/physiol.00041.2024",
+                "ensembl_id": "ENSG00000136717"
+            }
+        ],
+        "context_negative": [
+        {
+            "name": "Ikarugamycin",
+            "type": "Natural product (antibiotic from Streptomyces phaeochromogenes)",
+            "dose": "IC50 almost equal to 2.7 µM (in H1299 cells)",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:75276"
+        },
+        {
+            "name": "Pitstop",
+            "type": "Small molecule inhibitor of clathrin terminal domain",
+            "dose": "Low micromolar (variable; known to inhibit CIE too)",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": null
+        },
+        {
+            "name": "Dynasore",
+            "type": "Small molecule inhibitor of dynamin GTPase",
+            "dose": "IC50 almost equal to 15 µM for dynamin 1",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:132754"
+        },
+        {
+            "name": "Dyngo 4a",
+            "type": "Improved dynamin inhibitor (derivative of Dynasore)",
+            "dose": "Sub-micromolar to micromolar (varies by cell type)",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:194550"
+        },
+        {
+            "name": "Chlorpromazine",
+            "type": "Antipsychotic (phenothiazine class); inhibits clathrin coat assembly",
+            "dose": "Varies; typically used at 10-20 µM",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:3647"
+        },
+        {
+            "name": "Monodansylcadaverine (MDC)",
+            "type": "Small molecule; inhibits transglutaminase-dependent steps of CME",
+            "dose": "Typically 100 µM",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:52007"
+        },
+        {
+            "name": "Phenylarsine oxide (PAO)",
+            "type": "Arsenical compound; disrupts receptor clustering",
+            "dose": "Low micromolar (varies by cell type)",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:75253"
+        }
+    ]
+    },
+    "Caveolae-mediated endocytosis": {
+        "label": "Caveolin-mediated endocytosis",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0072584"
+            ],
+            "Reactome": [],
+            "KEGG": [],
+            "MSigDB": []
+        },
+        "gate_core": [
+            {
+                "gene": "CAV1",
+                "why": "Core structural protein required for the formation of caveolae; its knockdown or inhibition disrupts internalization of pathogens like Listeria monocytogenes and Brucella spp.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000105974"
+            },
+            {
+                "gene": "CAV3",
+                "why": "Muscle-specific isoform involved in caveolae formation in muscle cells; included as a core structural protein though context-specific.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000182533"
+            },
+            {
+                "gene": "CAVIN1",
+                "why": "Essential for caveolae stability through binding to phospholipids like PtdIns(4,5)P2 and PtdSer; loss leads to disruption of caveolar structure.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000177469"
+            },
+            {
+                "gene": "DNM2",
+                "why": "A GTPase required for the scission of caveolae from the membrane; essential for vesicle formation in caveolin-mediated endocytosis.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000079805"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "ABL1",
+                "why": "protein tyrosine kinase. The ubiquitously expressed protein has DNA-binding activity that is regulated by CDC2-mediated phosphorylation, suggesting a cell cycle function.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000097007"
+            },
+            {
+                "gene": "ALB",
+                "why": "This protein acts as a carrier protein for a wide range of fatty acids.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000163631"
+            },
+            {
+                "gene": "CAVIN2",
+                "why": "SDPR: stabilizes/curvature of caveolae",
+                "evidence": "DOI: 10.1034/j.1600-0854.2002.30501.x",
+                "ensembl_id": "ENSG00000168497"
+            },
+            {
+                "gene": "CD48",
+                "why": "Is held at the cell surface by a GPI anchor via a C-terminal domain which maybe cleaved to yield a soluble form of the receptor.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Dec 2011, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000117091"
+            },
+            {
+                "gene": "EHD2",
+                "why": "Stabilizes caveolae neck region and supports membrane curvature; involved in Listeria cell-to-cell spread.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000024422"
+            },
+            {
+                "gene": "ITGAD",
+                "why": "alpha D subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000156886"
+            },
+            {
+                "gene": "ITGAE",
+                "why": "alpha E subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000083457"
+            },
+            {
+                "gene": "ITGAL",
+                "why": "alpha L subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000005844"
+            },
+            {
+                "gene": "ITGAM",
+                "why": "alpha M subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000169896"
+            },
+            {
+                "gene": "ITGAV",
+                "why": "alpha V subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000138448"
+            },
+            {
+                "gene": "ITGAX",
+                "why": "alpha X subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000140678"
+            },
+            {
+                "gene": "ITGA1",
+                "why": "alpha 1 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000213949"
+            },
+            {
+                "gene": "ITGA2",
+                "why": "alpha 2 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000164171"
+            },
+            {
+                "gene": "ITGA2B",
+                "why": "Integrin alphaIIb platelet integrin included among caveolae-associated integrins",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000005961"
+            },
+            {
+                "gene": "ITGA3",
+                "why": "alpha 3 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000005884"
+            },
+            {
+                "gene": "ITGA4",
+                "why": "alpha 4 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000115232"
+            },
+            {
+                "gene": "ITGA5",
+                "why": "alpha 5 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000161638"
+            },
+            {
+                "gene": "ITGA6",
+                "why": "alpha 6 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000091409"
+            },
+            {
+                "gene": "ITGA7",
+                "why": "alpha 7 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000135424"
+            },
+            {
+                "gene": "ITGA8",
+                "why": "alpha 8 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000077943"
+            },
+            {
+                "gene": "ITGA9",
+                "why": "alpha 9 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000144668"
+            },
+            {
+                "gene": "ITGA10",
+                "why": "alpha 10 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000143127"
+            },
+            {
+                "gene": "ITGA11",
+                "why": "alpha 11 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000137809"
+            },
+            {
+                "gene": "ITGB1",
+                "why": "Beta 1 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000150093"
+            },
+            {
+                "gene": "ITGB2",
+                "why": "beta 2 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000160255"
+            },
+            {
+                "gene": "ITGB3",
+                "why": "beta 3 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000259207"
+            },
+            {
+                "gene": "ITGB4",
+                "why": "beta 4 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000132470"
+            },
+            {
+                "gene": "ITGB5",
+                "why": "beta 5 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000082781"
+            },
+            {
+                "gene": "ITGB6",
+                "why": "beta 6 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000115221"
+            },
+            {
+                "gene": "ITGB7",
+                "why": "beta 7 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000139626"
+            },
+            {
+                "gene": "ITGB8",
+                "why": "beta 8 subunit of integrin receptors. This protein heterodimerizes with the beta 1 subunit to form a cell-surface receptor for collagen and laminin.",
+                "evidence": "Caveolar-mediated Endocytosis Signaling. GeneGlobe (QIAGEN), provided by RefSeq, Jul 2008, https://geneglobe.qiagen.com/us/knowledge/pathways/caveolar-mediated-endocytosis-signaling",
+                "ensembl_id": "ENSG00000105855"
+            },
+            {
+                "gene": "PACSIN1",
+                "why": "Syndapin I-Critical for the membrane deformation and caveolae generation; also recruits Dynamin-2 and interacts with EHD proteins.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000124507"
+            },
+            {
+                "gene": "PACSIN2",
+                "why": "Helps stabilize caveolae neck region; overlaps functionally with PACSIN1.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000100266"
+            },
+            {
+                "gene": "FLNA",
+                "why": "Filamin A-Actin cross-linking protein required for recruitment of CAV1 to membrane invaginations during bacterial protrusion engulfment.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000196924"
+            },
+            {
+                "gene": "DIAPH1",
+                "why": "mDia1-Required to recruit Filamin A and facilitate actin polymerization during membrane deformation in caveolin-mediated endocytosis.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000131504"
+            },
+            {
+                "gene": "EPN1",
+                "why": "Epsin-1:Assists in membrane bending and invagination during caveolae formation; contributes to engulfment of bacterial protrusions.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000063245"
+            },
+            {
+                "gene": "MYLK",
+                "why": "MLCK: Myosin light chain kinase involved in junctional protein endocytosis via caveolin-dependent mechanism, important in Listeria entry.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000065534"
+            },
+            {
+                "gene": "SRC",
+                "why": "SRC-family kinases: phosphorylate CAV1 to trigger fission",
+                "evidence": "DOI: 10.1034/j.1600-0854.2002.30501.x",
+                "ensembl_id": "ENSG00000197122"
+            },
+            {
+                "gene": "FYN",
+                "why": "SRC-family kinases: phosphorylate CAV1 to trigger fission",
+                "evidence": "DOI: 10.1034/j.1600-0854.2002.30501.x",
+                "ensembl_id": "ENSG00000010810"
+            },
+            {
+                "gene": "ACTA1",
+                "why": "Actin alpha isoform contributing to cortical actin anchoring of caveolae",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000143632"
+            },
+            {
+                "gene": "ACTA2",
+                "why": "Smooth-muscle actin supporting caveolaetoactin linkage and contractility",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000107796"
+            },
+            {
+                "gene": "ACTB",
+                "why": "beta-actin forming cortical networks that anchor and remodel caveolae",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000075624"
+            },
+            {
+                "gene": "ACTC1",
+                "why": "Cardiac actin isoform listed for actin network composition at caveolae",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000159251"
+            },
+            {
+                "gene": "ACTG1",
+                "why": "gamma-actin supporting cortical actin used by caveolae",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000184009"
+            },
+            {
+                "gene": "ACTG2",
+                "why": "Smooth-muscle gamma-actin variant contributing to caveolar actin structures",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000163017"
+            },
+            {
+                "gene": "DYRK3",
+                "why": "Ser/Thr kinase implicated in microtubule-mediated long-range trafficking of caveolae/caveosomes",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000143479"
+            },
+            {
+                "gene": "EGF",
+                "why": "Ligand whose stimulation can trigger caveolae internalization",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000138798"
+            },
+            {
+                "gene": "EGFR",
+                "why": "EGF receptor caveola-associated receptor whose signaling can induce caveolar uptake",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000146648"
+            },
+            {
+                "gene": "FLNB",
+                "why": "Filamin B actin cross-linker anchoring/stabilizing caveolae",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000136068"
+            },
+            {
+                "gene": "FLNC",
+                "why": "Filamin C paralog supporting caveolae anchoring to the cytoskeleton",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000128591"
+            },
+            {
+                "gene": "INSR",
+                "why": "Insulin receptor receptor whose activation can induce caveolar endocytosis",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000171105"
+            },
+            {
+                "gene": "ITSN1",
+                "why": "Intersectin-1 scaffold for endocytic signaling complexes linked to caveolae",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000205726"
+            },
+            {
+                "gene": "MAP3K2",
+                "why": "MAP3K2 kinase downstream of caveolar signaling stimuli",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000169967"
+            },
+            {
+                "gene": "PRKCA",
+                "why": "PKCalpha modulates signaling and caveolar trafficking/internalization",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000154229"
+            },
+            {
+                "gene": "PTPN1",
+                "why": "PTP1B protein tyrosine phosphatase regulating receptor/caveolin-1 phosphorylation states",
+                "evidence": "https://doi.org/10.1007/978-1-4614-1222-9_2",
+                "ensembl_id": "ENSG00000196396"
+            },
+            {
+                "gene": "CAV2",
+                "why": "Co-localizes with CAV1 and contributes to the stabilization of caveolae; necessary for cell-to-cell spread in Listeria monocytogenes infection.",
+                "evidence": "https://doi.org/10.3390/cells14010002",
+                "ensembl_id": "ENSG00000105971"
+            },
+            {
+                "gene": "CAVIN3",
+                "why": "SRBC: adapter/modulator",
+                "evidence": "DOI: 10.1034/j.1600-0854.2002.30501.x",
+                "ensembl_id": "ENSG00000170955"
+            },
+            {
+                "gene": "CAVIN4",
+                "why": "MURC: tissue-specific cavin",
+                "evidence": "DOI: 10.1034/j.1600-0854.2002.30501.x",
+                "ensembl_id": "ENSG00000170681"
+            }
+        ],
+        "context_negative": [
+        {
+            "name": "INCB024360",
+            "type": "Small molecule (IDO1 inhibitor)",
+            "dose": "Dose not specified; used as nanoparticle-wrapped OMV cargo",
+            "evidence": "https://doi.org/10.1038/s41467-024-52500-5",
+            "CHEBI": null
+        },
+        {
+            "name": "Ikarugamycin",
+            "type": "Natural product (antibiotic from Streptomyces phaeochromogenes)",
+            "dose": "IC50 almost equal to 2.7 µM (in H1299 cells)",
+            "evidence": "https://doi.org/10.1111/tra.12425",
+            "CHEBI": "CHEBI:75276"
+        },
+        {
+            "name": "Methyl-beta-cyclodextrin (MβCD)",
+            "type": "Cholesterol-depleting agent",
+            "dose": "Commonly used at 1-10 mM for 30-60 minutes",
+            "evidence": "https://doi.org/10.1083/jcb.161.4.673",
+            "CHEBI": "CHEBI:495055"
+        },
+        {
+            "name": "Nystatin",
+            "type": "Polyene antifungal agent that binds cholesterol",
+            "dose": "Typically 25-50 µg/mL for 30-60 minutes",
+            "evidence": "https://doi.org/10.1083/jcb.161.4.673",
+            "CHEBI": "CHEBI:473992"
+        },
+        {
+            "name": "Filipin",
+            "type": "Polyene macrolide antibiotic",
+            "dose": "Used at 1-5 µg/mL; binds membrane cholesterol",
+            "evidence": "https://doi.org/10.1083/jcb.161.4.673",
+            "CHEBI": "CHEBI:83267"
+        },
+        {
+            "name": "Genistein",
+            "type": "Tyrosine kinase inhibitor (plant-derived isoflavone)",
+            "dose": "50-200 µM; inhibits Src-family kinases and internalization",
+            "evidence": "https://doi.org/10.1083/jcb.161.4.673",
+            "CHEBI": "CHEBI:28088"
+        }
+    ]
+    },
+    "CLIC/GEEC (GPI-AP enriched compartments)": {
+        "label": "Clathrin- and Caveolae-Independent Endocytosis (CIE)",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0160294"
+            ],
+            "Reactome": [],
+            "KEGG": [],
+            "MSigDB": []
+        },
+        "gate_core": [
+            {
+                "gene": "CDC42",
+                "why": "A small Rho GTPase that regulates actin polymerization and is essential for CLIC/GEEC vesicle formation, trafficking, and maturation.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000070831"
+            },
+            {
+                "gene": "GBF1",
+                "why": "activates ARF1 to tune CDC42 cycling at PM",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000107862"
+            },
+            {
+                "gene": "ARF1",
+                "why": "A small GTPase that initiates CLIC formation by recruiting necessary components at the plasma membrane.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000143761"
+            },
+            {
+                "gene": "ARHGAP10",
+                "why": "returns CDC42 to cycling state for carrier formation",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000071205"
+            },
+            {
+                "gene": "ARHGAP26",
+                "why": "RhoGAP/BAR/SH3 protein central to CLIC/GEEC tubules",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000145819"
+            },
+            {
+                "gene": "ACTR2",
+                "why": "ARP2: branched actin for curvature and vesicle formation",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000138071"
+            },
+            {
+                "gene": "ACTR3",
+                "why": "ARP3: branched actin for curvature and vesicle formation",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000115091"
+            },
+            {
+                "gene": "BAIAP2",
+                "alias": "",
+                "why": "IRSp53: membrane/actin coupling in CIE families incl. CLIC/GEEC",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000175866"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "GBF1",
+                "why": "A guanine nucleotide exchange factor (GEF) that activates Arf1, thus initiating the cascade that maintains Cdc42 cycling.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000107862"
+            },
+            {
+                "gene": "ARHGAP10",
+                "why": "A RhoGAP protein that inactivates Cdc42, returning it to a cycling state and balancing actin dynamics.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000071205"
+            },
+            {
+                "gene": "ARHGAP26",
+                "why": "Multidomain protein with a BAR, SH3, and RhoGAP domain; colocalizes with CLIC/GEEC carriers and regulates Cdc42 activity and membrane curvature.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000145819"
+            },
+            {
+                "gene": "LGALS3",
+                "why": "Galectin-3: An extracellular lectin that clusters glycosylated cargo and lipids, initiating membrane curvature required for CLIC formation.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000131981"
+            },
+            {
+                "gene": "PICK1",
+                "why": "Protein Interacting with C Kinase 1, involved in Arp2/3 regulation and thereby affects actin dynamics required for CLIC/GEEC vesicle formation.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000100151"
+            },
+            {
+                "gene": "RAB5A",
+                "why": "Small GTPase that regulates the fusion of GEECs with early sorting endosomes, affecting downstream trafficking but not initial internalization.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000144566"
+            },
+            {
+                "gene": "PI3KCA",
+                "why": "Phosphoinositide 3-kinase facilitates membrane trafficking and maturation of endosomes; important for fusion of GEECs but not for carrier formation.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000121879"
+            },
+            {
+                "gene": "DNM1",
+                "why": "Although not required for CLIC formation (which is dynamin-independent), it is involved in **membrane recycling from GEECs** in certain cell types.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000106976"
+            },
+            {
+                "gene": "VCL",
+                "why": "Mechanotransducer protein that regulates membrane tension; modulates CLIC/GEEC activity under mechanical stress but is not a core component.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000035403"
+            },
+            {
+                "gene": "CD44",
+                "why": "A glycosylated transmembrane protein and cargo of the pathway; it clusters via galectin-3 but its presence is not required to activate the pathway.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000026508"
+            },
+            {
+                "gene": "ITGA5",
+                "why": "These receptors are cargo for CLIC/GEEC and may influence clustering and curvature, but are not required for pathway formation or vesicle scission.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000161638"
+            },
+            {
+                "gene": "ITGB1",
+                "why": "These receptors are cargo for CLIC/GEEC and may influence clustering and curvature, but are not required for pathway formation or vesicle scission.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000150093"
+            },
+            {
+                "gene": "LGALS1",
+                "why": "Galectin-1: Like galectin-3, it can assist in clustering glycosylated cargo, but its role is context-dependent and not essential in all cell types.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000100097"
+            },
+            {
+                "gene": "CTBP1",
+                "why": "Modulates fission of macropinosomes but also affects some aspects of membrane remodeling; not essential but may crosstalk with CLIC/GEEC.",
+                "evidence": "doi:10.1038/s41565-021-00858-8",
+                "ensembl_id": "ENSG00000159692"
+            }
+        ],
+        "context_negative": [
+        {
+            "name": "LG186",
+            "type": "Small molecule (Arf-GEF inhibitor)",
+            "dose": "Effective at 10-20 µM",
+            "evidence": "https://doi.org/10.1038/s41565-021-00858-8",
+            "MESH": "mesh:C556515"
+        },
+        {
+            "name": "7-ketocholesterol",
+            "type": "Sterol derivative (membrane lipid packing disruptor)",
+            "dose": "Effective at 10-20 µM",
+            "evidence": "https://doi.org/10.1038/s41565-021-00858-8",
+            "CHEBI": "CHEBI:64294"
+        },
+        {
+            "name": "Methyl-beta-cyclodextrin",
+            "type": "Cholesterol-depleting agent",
+            "dose": "Typically 1-10 mM for 30 min",
+            "evidence": "https://doi.org/10.1038/s41565-021-00858-8",
+            "CHEBI": "CHEBI:133151"
+        },
+        {
+            "name": "Nystatin",
+            "type": "Polyene antifungal (binds membrane cholesterol)",
+            "dose": "Typically 25-50 µg/mL",
+            "evidence": "https://doi.org/10.1038/s41565-021-00858-8",
+            "CHEBI": "CHEBI:7660"
+        }
+        ]
+
+    },
+    "CLIC/FEME (Fast Endophilin Mediated Endocytosis)": {
+        "label": "Clathrin- and Caveolae-Independent Endocytosis (CIE)",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0160294"
+            ],
+            "Reactome": [
+                "R-HSA-9013157"
+            ],
+            "KEGG": [],
+            "MSigDB": []
+        },
+        "gate_core": [
+            {
+                "gene": "SH3GL1",
+                "why": "Endophilin A1: Essential for membrane curvature generation, cargo selection, and membrane scission during FEME; no FEME occurs without their combined presence.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000141985"
+            },
+            {
+                "gene": "SH3GL2",
+                "why": "Endophilin A2: Essential for membrane curvature generation, cargo selection, and membrane scission during FEME; no FEME occurs without their combined presence.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000107295"
+            },
+            {
+                "gene": "SH3GL3",
+                "why": "Endophilin A3: Essential for membrane curvature generation, cargo selection, and membrane scission during FEME; no FEME occurs without their combined presence.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000140600"
+            },
+            {
+                "gene": "DNM1",
+                "why": "Dynamin 1: GTPase required for membrane scission; recruited by Endophilin to bud FEME carriers.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000106976"
+            },
+            {
+                "gene": "DNM2",
+                "why": "Dynamin 2: GTPase required for membrane scission; recruited by Endophilin to bud FEME carriers.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000079805"
+            },
+            {
+                "gene": "WASL",
+                "why": "N WASP: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000106299"
+            },
+            {
+                "gene": "WASF1",
+                "why": "WAVE regulatory complex (WRC):Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000112290"
+            },
+            {
+                "gene": "WASF2",
+                "why": "WAVE regulatory complex (WRC): Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000158195"
+            },
+            {
+                "gene": "WASF3",
+                "why": "WAVE regulatory complex (WRC):Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000132970"
+            },
+            {
+                "gene": "CYFIP1",
+                "why": "CYFIP family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000273749"
+            },
+            {
+                "gene": "CYFIP2",
+                "why": "CYFIP family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000055163"
+            },
+            {
+                "gene": "NCKAP1",
+                "why": "NCKAP family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000061676"
+            },
+            {
+                "gene": "NCKAP1L",
+                "why": "NCKAP family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000123338"
+            },
+            {
+                "gene": "ABI1",
+                "why": "ABI family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000136754"
+            },
+            {
+                "gene": "ABI2",
+                "why": "ABI family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000138443"
+            },
+            {
+                "gene": "ABI3",
+                "why": "ABI family: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000108798"
+            },
+            {
+                "gene": "BRK1",
+                "why": "BRK1: Supports membrane curvature and scission; required for FEME carrier formation and transport.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000254999"
+            },
+            {
+                "gene": "PIK3CA",
+                "why": "Catalytic subunit of Class I PI3K - required to phosphorylate PIP2 into PIP3, triggering FEME activatio",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000121879"
+            },
+            {
+                "gene": "PIK3CB",
+                "why": "Catalytic subunit of Class I PI3K - required to phosphorylate PIP2 into PIP3, triggering FEME activatio",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000051382"
+            },
+            {
+                "gene": "PIK3CD",
+                "why": "Catalytic subunit of Class I PI3K - required to phosphorylate PIP2 into PIP3, triggering FEME activatio",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000171608"
+            },
+            {
+                "gene": "PIK3R1",
+                "why": "Regulatory subunit of Class I PI3K - required to phosphorylate PIP2 into PIP3, triggering FEME activatio",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000145675"
+            },
+            {
+                "gene": "PIK3R2",
+                "why": "Regulatory subunit of Class I PI3K - required to phosphorylate PIP2 into PIP3, triggering FEME activatio",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000105647"
+            },
+            {
+                "gene": "PIK3R3",
+                "why": "Regulatory subunit of Class I PI3K - required to phosphorylate PIP2 into PIP3, triggering FEME activatio",
+                "evidence": " https://doi.org/10.1016/j.ceb.2025.102563",
+                "ensembl_id": "ENSG00000117461"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "INPP5D",
+                "why": "SHIP1: Required for the priming cycle by converting Pi(3,4,5)P3 to Pi(3,4)P2 to recruit Lamellipodin and Endophilin.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000168918"
+            },
+            {
+                "gene": "INPPL1",
+                "why": "SHIP2: Required for the priming cycle by converting Pi(3,4,5)P3 to Pi(3,4)P2 to recruit Lamellipodin and Endophilin.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000165458"
+            },
+            {
+                "gene": "CDC42",
+                "why": "Initiates the priming cycle of FEME by recruiting FBP17/CIP4 to plasma membrane.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000070831"
+            },
+            {
+                "gene": "LRRK2",
+                "why": "phosphoregulation of endophilin N BAR; modulates membrane binding",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000188906"
+            },
+            {
+                "gene": "FNBP1L",
+                "why": "FBP17: FEME priming protein",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000137942"
+            },
+            {
+                "gene": "TRIP10",
+                "why": "CIP4: FEME priming protein",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000125733"
+            },
+            {
+                "gene": "RAPH1",
+                "why": "Lamellipodin: FEME priming protein",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000173166"
+            },
+            {
+                "gene": "SH3BP1",
+                "why": "FEME priming protein",
+                "evidence": ":https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000100092"
+            },
+            {
+                "gene": "ARHGAP17",
+                "why": "Cdc42 GAP that terminates FEME priming specifically; its overexpression suppresses FEME without major effects on CME.",
+                "evidence": "10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000140750"
+            },
+            {
+                "gene": "BIN1",
+                "why": "Amphiphysin II: FEME component/assistant",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000136717"
+            },
+            {
+                "gene": "CDK5",
+                "why": "Phosphorylates Dynamin-1 at Ser778 to inhibit its recruitment to Endophilin and block FEME.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000164885"
+            },
+            {
+                "gene": "GSK3B",
+                "why": "Phosphorylates Dynamin-1 at Ser774 and is inactivated by AKT/ERK upon receptor stimulation to allow FEME activation.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000082701"
+            },
+            {
+                "gene": "SRC",
+                "why": "Phosphorylates Endophilin and influences FEME initiation; involved in relieving Endophilin auto-inhibition.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000197122"
+            },
+            {
+                "gene": "LRRK2",
+                "why": "Phosphorylates Endophilin at sites that impair its membrane-binding ability, thus inhibiting FEME.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000188906"
+            },
+            {
+                "gene": "BIN1",
+                "why": "N-BAR protein recruited to FEME carriers to assist in scission and dynein recruitment.",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000136717"
+            },
+            {
+                "gene": "DYNC1H1",
+                "why": "Motor protein regulating FEME carrier transport, but not essential for vesicle scission or internalization itself",
+                "evidence": "https://doi.org/10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000197102"
+            },
+            {
+                "gene": "OPHN1",
+                "why": "(Oligophrenin-1): Acts as a GAP terminating Cdc42 activity in FEME priming; specifically impacts FEME, not CME.",
+                "evidence": "10.1042/BCJ20190342",
+                "ensembl_id": "ENSG00000079482"
+            }
+        ],
+        "context_negative": [
+        {
+            "name": "Imipramine",
+            "type": "Drug (tricyclic antidepressant)",
+            "dose": "IC50 almost equal to 131 nM",
+            "evidence": "https://doi.org/10.1111/bph.14439",
+            "CHEBI": "CHEBI:47499"
+        },
+        {
+            "name": "Dynasore",
+            "type": "Small molecule (Dynamin inhibitor)",
+            "dose": "80 µM",
+            "evidence": "https://doi.org/10.1073/pnas.0507062102",
+            "CHEBI": "CHEBI:132754"
+        },
+        {
+            "name": "MiTMAB",
+            "type": "Dynamin inhibitor (targets PH domain)",
+            "dose": "IC50 almost equal to 8-10 µM",
+            "evidence": "https://doi.org/10.1124/mol.106.028019",
+            "CHEBI": null
+        },
+        {
+            "name": "CHIR-99021",
+            "type": "GSK3β inhibitor",
+            "dose": "IC50 almost equal to 6.7 nM",
+            "evidence": "https://doi.org/10.1124/mol.106.025817",
+            "CHEBI": "CHEBI:91091"
+        },
+        {
+            "name": "Roscovitine (Seliciclib)",
+            "type": "CDK5 inhibitor",
+            "dose": "IC50 almost equal to 0.65 µM (CDK5)",
+            "evidence": "https://doi.org/10.1124/mol.64.4.1052",
+            "CHEBI": "CHEBI:86007"
+        },
+        {
+            "name": "Mdivi-1",
+            "type": "Dynamin-related GTPase inhibitor (Drp1 selective, off-targets dynamin)",
+            "dose": "50 µM",
+            "evidence": "https://doi.org/10.1083/jcb.200607044",
+            "CHEBI": "CHEBI:232380"
+        },
+        {
+            "name": "PP2",
+            "type": "Src-family kinase inhibitor",
+            "dose": "IC50 almost equal to 4-5 µM",
+            "evidence": "https://doi.org/10.1074/jbc.M308224200",
+            "CHEBI": "CHEBI:78331"
+        },
+        {
+            "name": "GSK2578215A",
+            "type": "LRRK2 kinase inhibitor",
+            "dose": "IC50 almost equal to 10 nM (LRRK2-G2019S mutant)",
+            "evidence": "https://doi.org/10.1021/cn100109j",
+            "MESH": "mesh:C000600930"
+        }
+    ]
+    },
+    "CLIC/RhoA mediated Endocytosis": {
+        "label": "Clathrin- and Caveolae-Independent Endocytosis (CIE)",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0160294",
+                "GO:0007266"
+            ],
+            "Reactome": [
+                "R-HSA-195258",
+                "R-HSA-9012999"
+            ],
+            "KEGG": [],
+            "MSigDB": []
+        },
+        "gate_core": [
+            {
+                "gene": "RHOA",
+                "why": "RhoA regulates actomyosin contractility and has been shown to inhibit clathrin-mediated endocytosis; activated RhoA delays EGF receptor trafficking to lysosomes.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000067560"
+            },
+            {
+                "gene": "CDC42",
+                "why": "Cdc42 is essential for actin comet tail formation and vesicle propulsion in both endocytic and exocytic pathways, and regulates apical/basolateral trafficking in polarized epithelial cells.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000070831"
+            },
+            {
+                "gene": "RAC1",
+                "why": "Rac1 promotes macropinocytosis and phagocytosis by driving actin polymerization through the Arp2/3 complex, but also inhibits clathrin-mediated endocytosis.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000136238"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "ROCK1",
+                "why": "A downstream effector of RhoA, ROCK1 mediates actomyosin contractility which may influence vesicle scission or cortical tension during endocytosis.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000067900"
+            },
+            {
+                "gene": "DIAPH1",
+                "why": " DIA1 (mDia1): A RhoA effector coordinating actin and microtubule networks, possibly impacting vesicle transport and membrane tension.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000131504"
+            },
+            {
+                "gene": "PKN1",
+                "why": "Activated by RhoB, PRK1 is involved in trafficking of internalized EGF receptor by slowing its movement toward lysosomes.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000123143"
+            },
+            {
+                "gene": "PAK1",
+                "why": "A Rac/Cdc42 target required for macropinocytosis; activated PAK1 stimulates actin remodeling linked to vesicle uptake.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000149269"
+            },
+            {
+                "gene": "SYNJ2",
+                "why": "(Synaptojanin 2) Effector of Rac1 that regulates clathrin-mediated endocytosis by modifying phosphoinositides and potentially uncoating vesicles.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000078269"
+            },
+            {
+                "gene": "DNM2",
+                "why": "(Dynamin 2) Interacts with cortactin and syndapin to promote membrane scission and is linked to actin-driven vesicle propulsion via Arp2/3 complex.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000079805"
+            },
+            {
+                "gene": "CTTN",
+                "why": "CORTACTIN: Binds Arp2/3 and actin, mediating actin polymerization at endocytic sites; interacts with dynamin.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000085733"
+            },
+            {
+                "gene": "ARHGEF2",
+                "why": "GEF-H1: A RhoGEF localized to microtubules; may activate RhoA upon microtubule depolymerization and regulate spatial activation of Rho signaling.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000116584"
+            },
+            {
+                "gene": "WASL",
+                "why": "N-WASP: Activated by Cdc42 and dynamin, N-WASP drives Arp2/3-mediated actin polymerization to form vesicle-propelling actin tails.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000106299"
+            },
+            {
+                "gene": "ARPC2",
+                "why": "(part of Arp2/3 complex) Effector of Rac and Cdc42 via WASP/WAVE, it nucleates branched actin networks crucial for vesicle formation and movement.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000163466"
+            },
+            {
+                "gene": "IQGAP1",
+                "why": "Cdc42-interacting scaffold protein localized at Golgi; may help organize actin, but dispensable for vesicle internalization.",
+                "evidence": "10.1034/j.1600-0854.2001.002005303.x",
+                "ensembl_id": "ENSG00000140575"
+            }
+        ],
+        "context_negative": [
+        {
+            "name": "C3 Transferase",
+            "type": "Bacterial toxin",
+            "dose": "1-to-10 µg/mL commonly used in vitro",
+            "evidence": "https://doi.org/10.1034/j.1600-0854.2001.002005303.x",
+            "CHEBI": "CHEBI:137692"
+        },
+        {
+            "name": "Y-27632",
+            "type": "Small molecule ROCK inhibitor",
+            "dose": "IC50 almost equal to 140 nM for ROCK1",
+            "evidence": "https://doi.org/10.1096/fj.00-0595com",
+            "CHEBI": "CHEBI:75393"
+        },
+        {
+            "name": "Fasudil (HA-1077)",
+            "type": "Drug (ROCK inhibitor used clinically)",
+            "dose": "IC50 almost equal to 330 nM for ROCK2",
+            "evidence": "https://doi.org/10.1124/jpet.301.3.1181",
+            "CHEBI": "CHEBI:43871"
+        },
+        {
+            "name": "Rhosin",
+            "type": "Small molecule RhoA-GEF interaction inhibitor",
+            "dose": "IC50 almost equal to 5.2 µM for RhoA activation",
+            "evidence": "https://doi.org/10.1073/pnas.1201573109",
+            "CHEBI": "CHEBI:137693"
+        },
+        {
+            "name": "Exoenzyme C3 (from Clostridium botulinum)",
+            "type": "ADP-ribosylating bacterial toxin",
+            "dose": "Inhibitory at 1-to-5 µg/mL in cultured cells",
+            "evidence": "https://doi.org/10.1128/MCB.14.3.1923-1933.1994",
+            "MESH": "mesh:C063007"
+        },
+        {
+            "name": "NSC23766",
+            "type": "Small molecule Rac1 inhibitor (indirectly affects RhoA via cross-regulation)",
+            "dose": "IC50 almost equal to 50 µM for Rac1-GEF binding",
+            "evidence": "https://doi.org/10.1073/pnas.0306302101",
+            "CHEBI": "CHEBI:144984"
+        }
+        ]
+    },
+    "CLIC/CDC42 mediated Endocytosis": {
+        "label": "Clathrin- and Caveolae-Independent Endocytosis (CIE)",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0160294"
+            ],
+            "Reactome": [
+                "R-HSA-9013148"
+            ],
+            "KEGG": [
+                "hsa04530",
+                "hsa04520"
+            ],
+            "MSigDB": []
+        },
+        "gate_core": [
+            {
+                "gene": "CDC42",
+                "why": "Central small GTPase that directly regulates actin polymerization via WASptoArp2/3 to drive clathrin-independent endocytosis and vesicle scission.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000070831"
+            },
+            {
+                "gene": "WAS",
+                "why": "WASp: Effector of Cdc42; relieves autoinhibition and activates the Arp2/3 complex, enabling branched actin formation required for vesicle scission.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000015285"
+            },
+            {
+                "gene": "ACTR2",
+                "why": "Arp2: Actin nucleator downstream of Cdc42toWASp; required to generate branched actin filaments that deform membranes and support vesicle budding and fission.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000138071"
+            },
+            {
+                "gene": "ACTR3",
+                "why": "Arp3: Actin nucleator downstream of Cdc42toWASp; required to generate branched actin filaments that deform membranes and support vesicle budding and fission.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000115091"
+            },
+            {
+                "gene": "DNM1",
+                "why": "Required for vesicle scission at adherens junctions and other sites where Cdc42 regulates endocytosis.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000106976"
+            },
+            {
+                "gene": "TRIP10",
+                "why": "Cip4: Cdc42-interacting F-BAR protein that activates WASp and promotes Arp2/3-mediated actin assembly, facilitating vesicle scission.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000125733"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "PARD6A",
+                "why": "Forms a complex with Cdc42 and aPKC to regulate endocytosis and recycling of clathrin-dependent and independent cargo, especially in epithelial polarity contexts.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000102981"
+            },
+            {
+                "gene": "PRKCI",
+                "why": "aPKC: Kinase activated by Cdc42toPar6; regulates apical endocytosis and recycling, influencing trafficking of Crumbs and adherens junction components.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000163558"
+            },
+            {
+                "gene": "PARD3",
+                "why": "Par3: In some contexts (C. elegans, Drosophila embryo) cooperates with Cdc42toPar6toaPKC to regulate apical endocytosis and recycling of clathrin-independent cargo.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000148498"
+            },
+            {
+                "gene": "CRB1",
+                "why": "Crumbs: An apical determinant regulated by Cdc42; its trafficking defects destabilize adherens junctions in Drosophila neuroectoderm, but Cdc42 endocytosis can still occur without it.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000134376"
+            },
+            {
+                "gene": "CDHR1",
+                "why": "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000148600"
+            },
+            {
+                "gene": "CDHR2",
+                "why": "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000074276"
+            },
+            {
+                "gene": "CDHR3",
+                "why": "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000128536"
+            },
+            {
+                "gene": "CDHR4",
+                "why": "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000187492"
+            },
+            {
+                "gene": "CDHR5",
+                "why": "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000099834"
+            },
+            {
+                "gene": "CDH23",
+                "why": "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000107736"
+            },
+            {
+                "gene": "LLGL1",
+                "why": "Lgl (Lethal giant larvae): Can interact with Par6toaPKC to exclude Par3; modulates polarity and trafficking in certain contexts but is not universally required for Cdc42-driven endocytosis.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000131899"
+            },
+            {
+                "gene": "LLGL2",
+                "why": "Lgl (Lethal giant larvae): Can interact with Par6toaPKC to exclude Par3; modulates polarity and trafficking in certain contexts but is not universally required for Cdc42-driven endocytosis.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000073350"
+            },
+            {
+                "gene": "ANXA2",
+                "why": "Annexin 2: Recruits Cdc42 to PIP2-rich apical membranes in MDCK cysts, helping lumen formation; enhances spatial targeting but is not essential for the mechanism itself.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000182718"
+            },
+            {
+                "gene": "WASF1",
+                "why": "SCAR/WAVE: Alternative actin nucleation regulator that works with Cip4; contributes to endosome dynamics in Drosophila but is not indispensable for Cdc42-mediated endocytosis.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000112290"
+            },
+            {
+                "gene": "WASF2",
+                "why": "SCAR/WAVE: Alternative actin nucleation regulator that works with Cip4; contributes to endosome dynamics in Drosophila but is not indispensable for Cdc42-mediated endocytosis.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000158195"
+            },
+            {
+                "gene": "WASF3",
+                "why": "SCAR/WAVE: Alternative actin nucleation regulator that works with Cip4; contributes to endosome dynamics in Drosophila but is not indispensable for Cdc42-mediated endocytosis.",
+                "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+                "ensembl_id": "ENSG00000132970"
+            }
+        ],
+        "context_negative": [
+        {
+            "gene": "ARHGAP1",
+            "why": "Acts as a negative regulator of Cdc42→Par6→aPKC at adherens junctions; its loss increases endocytosis and disrupts apical tension, while Cdc42 depletion rescues Rho1 mutant phenotypes.",
+            "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+            "ensembl_id": "ENSG00000175220"
+        },
+        {
+            "gene": "QRICH1",
+            "why": "A GAP that inactivates Cdc42 at tight junctions; its knockdown leads to Cdc42 hyperactivation and junctional defects, indicating it restrains excessive Cdc42-driven endocytosis.",
+            "evidence": "doi:10.1111/j.1600-0854.2010.01102.x",
+            "ensembl_id": "ENSG00000198218"
+        },
+        {
+            "name": "Imipramine",
+            "type": "Drug (tricyclic antidepressant)",
+            "dose": "IC50 ≈ 131 nM (for macropinocytosis inhibition)",
+            "evidence": "https://doi.org/10.1111/bph.14439",
+            "CHEBI": "CHEBI:47499"
+        },
+        {
+            "name": "Phenoxybenzamine",
+            "type": "Drug (irreversible alpha-adrenergic antagonist)",
+            "dose": "Not specified (identified in screen as inhibitor of macropinocytosis)",
+            "evidence": "https://doi.org/10.1111/bph.14439",
+            "CHEBI": "CHEBI:8077"
+        },
+        {
+            "name": "Amiloride",
+            "type": "Ion transport inhibitor / Na⁺/H⁺ exchanger blocker",
+            "dose": "Commonly used ~50 µM in cell assays",
+            "evidence": "doi: 10.1083/jcb.200908086",
+            "CHEBI": "CHEBI:2639"
+        },
+        {
+            "name": "EIPA (ethylisopropylamiloride)",
+            "type": "Ion transport inhibitor / Na⁺/H⁺ exchanger blocker",
+            "dose": "Commonly used ~50 µM in cell assays",
+            "evidence": "doi: 10.1083/jcb.200908086",
+            "CHEBI": "CHEBI:136538"
+        },
+        {
+            "name": "CASIN",
+            "type": "Small molecule Cdc42 activity-specific inhibitor",
+            "dose": "Varies (literature: low micromolar range)",
+            "evidence": "DOI: 10.1038/s41375-018-0251-5",
+            "MESH": "mesh:C000719991"
+        }
+        ]
+    },
+    "CLIC/ARF6 mediated Endocytosis": {
+        "label": "Clathrin- and Caveolae-Independent Endocytosis (CIE)",
+        "class": "endocytosis",
+        "external_refs": {
+            "GO": [
+                "GO:0160294"
+            ],
+            "Reactome": [],
+            "KEGG": [],
+            "MSigDB": []
+        },
+        "gate_core": [
+            {
+                "gene": "ARF6",
+                "why": "Master small GTPase required for clathrin-dependent and clathrin-independent endocytosis, regulating receptor and ligand uptake.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000165527"
+            },
+            {
+                "gene": "PIP5K1B",
+                "why": "Generates PI(4,5)P2 at the plasma membrane after activation by ARF6, essential for coated pit assembly and scission.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000107242"
+            },
+            {
+                "gene": "PLD1",
+                "why": "Produces phosphatidic acid, which cooperates with PIP5K to promote vesicle budding and fission.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000075651"
+            },
+            {
+                "gene": "PLD2",
+                "why": "Produces phosphatidic acid, which cooperates with PIP5K to promote vesicle budding and fission.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000129219"
+            }
+        ],
+        "regulators": [
+            {
+                "gene": "PSD",
+                "why": "EFA6 family: Specific GEFs that directly activate ARF6 by promoting GDPtoGTP exchange, initiating endocytosis and recycling.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000059915"
+            },
+            {
+                "gene": "PSD2",
+                "why": "EFA6 family: Specific GEFs that directly activate ARF6 by promoting GDPtoGTP exchange, initiating endocytosis and recycling.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000146005"
+            },
+            {
+                "gene": "PSD3",
+                "why": "EFA6 family: Specific GEFs that directly activate ARF6 by promoting GDPtoGTP exchange, initiating endocytosis and recycling.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000156011"
+            },
+            {
+                "gene": "PSD4",
+                "why": "EFA6 family: Specific GEFs that directly activate ARF6 by promoting GDPtoGTP exchange, initiating endocytosis and recycling.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000125637"
+            },
+            {
+                "gene": "CYTH2",
+                "why": "ARNO (Cytohesin-2, PSCD2): Plasma membrane GEF that activates ARF6 in response to signals, triggering downstream Rac1 activation and endocytosis.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000105443"
+            },
+            {
+                "gene": "IQSEC1",
+                "why": "BRAG2 (ARF GEP100): ARF6-specific GEF required for integrin endocytosis and recycling, crucial for pathway activation in adhesion contexts.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000144711"
+            },
+            {
+                "gene": "NME1",
+                "why": "NM23-H1: Supplies local GTP for dynamin during vesicle fission, enhances clathrin-mediated uptake but pathway can still occur without it.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000239672"
+            },
+            {
+                "gene": "SMAP1",
+                "why": "ARF6 GAP that interacts with clathrin heavy chain to regulate vesicle uncoating; modulates efficiency but not initiation.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000112305"
+            },
+            {
+                "gene": "ACAP1",
+                "why": "ARF6 GAP that regulates transferrin and beta1 integrin recycling; affects recycling but not initial uptake.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000072818"
+            },
+            {
+                "gene": "EXOC4",
+                "why": "Exocyst complex (Sec10, Arfophilin-1/2): Tethers ARF6-derived recycling vesicles to plasma membrane and cleavage furrow; important for trafficking but not required for endocytosis initiation.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000131558"
+            },
+            {
+                "gene": "EXOC5",
+                "why": "Exocyst complex (Sec10, Arfophilin-1/2): Tethers ARF6-derived recycling vesicles to plasma membrane and cleavage furrow; important for trafficking but not required for endocytosis initiation.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000070367"
+            },
+            {
+                "gene": "EXOC8",
+                "why": "Exocyst complex (Sec10, Arfophilin-1/2): Tethers ARF6-derived recycling vesicles to plasma membrane and cleavage furrow; important for trafficking but not required for endocytosis initiation.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000116903"
+            },
+            {
+                "gene": "RAC1",
+                "why": "Small GTPase activated downstream of ARF6 to remodel actin; influences endocytosis efficiency and cell migration but not strictly required for uptake.",
+                "evidence": "doi:10.1038/nrm1910",
+                "ensembl_id": "ENSG00000136238"
+            }
+        ],
+        "context_negative": [
+        {
+            "name": "Rasarfin",
+            "type": "Small molecule (dual Ras / ARF6 inhibitor)",
+            "dose": "IC50 / potency not fully disclosed for ARF6 alone (inhibits GPCR internalization via ARF6)",
+            "evidence": "https://doi.org/10.1038/s41467-021-24968-y",
+            "CHEBI": null
+        },
+        {
+            "name": "NAV-2729",
+            "type": "Small molecule (ARF regulatory protein inhibitor)",
+            "dose": "Inhibition in µM range (complex target profile including ARF regulators)",
+            "evidence": "J. Biol. Chem. 2023: The small molecule inhibitor NAV-2729 has a complex target profile including multiple ADP-ribosylation factor regulatory proteins.",
+            "CHEBI": "CHEBI:132811"
+        }
+        ]
+    }
+}
+
+
