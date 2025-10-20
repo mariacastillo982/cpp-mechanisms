@@ -11,6 +11,7 @@
   dct:creator [ foaf:name "Maria Gomez" ] ;
   dct:created "2025-10-19"^^xsd:date ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:identifier <https://doi.org/10.5281/zenodo.17395465> ;
   dcat:keyword "macropinocytosis", "phagocytosis", "endocytosis", "RDF", "FAIR" ;
   dcat:distribution [
     a dcat:Distribution ;
