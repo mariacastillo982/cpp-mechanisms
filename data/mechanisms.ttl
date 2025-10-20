@@ -1,8 +1,8 @@
-@prefix ex: <http://example.org/schema#> .
-@prefix mech: <http://example.org/mechanism/> .
+@prefix ex: <https://w3id.org/cpp/schema#> .
+@prefix mech: <https://w3id.org/cpp/dataset/mechanisms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://example.org/mechanism/CLIC/ARF6%20mediated%20Endocytosis> a ex:Mechanism ;
+<https://w3id.org/cpp/dataset/mechanisms/CLIC/ARF6%20mediated%20Endocytosis> a ex:Mechanism ;
     rdfs:label "CLIC/ARF6 mediated Endocytosis",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -104,7 +104,7 @@
             ex:geneSymbol "NME1" ;
             ex:why "NM23-H1: Supplies local GTP for dynamin during vesicle fission, enhances clathrin-mediated uptake but pathway can still occur without it." ] .
 
-<http://example.org/mechanism/CLIC/CDC42%20mediated%20Endocytosis> a ex:Mechanism ;
+<https://w3id.org/cpp/dataset/mechanisms/CLIC/CDC42%20mediated%20Endocytosis> a ex:Mechanism ;
     rdfs:label "CLIC/CDC42 mediated Endocytosis",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -263,7 +263,7 @@
             ex:geneSymbol "PRKCI" ;
             ex:why "aPKC: Kinase activated by Cdc42toPar6; regulates apical endocytosis and recycling, influencing trafficking of Crumbs and adherens junction components." ] .
 
-<http://example.org/mechanism/CLIC/FEME%20%28Fast%20Endophilin%20Mediated%20Endocytosis%29> a ex:Mechanism ;
+<https://w3id.org/cpp/dataset/mechanisms/CLIC/FEME%20%28Fast%20Endophilin%20Mediated%20Endocytosis%29> a ex:Mechanism ;
     rdfs:label "CLIC/FEME (Fast Endophilin Mediated Endocytosis)",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -517,7 +517,7 @@
             ex:geneSymbol "CDK5" ;
             ex:why "Phosphorylates Dynamin-1 at Ser778 to inhibit its recruitment to Endophilin and block FEME." ] .
 
-<http://example.org/mechanism/CLIC/GEEC%20%28GPI-AP%20enriched%20compartments%29> a ex:Mechanism ;
+<https://w3id.org/cpp/dataset/mechanisms/CLIC/GEEC%20%28GPI-AP%20enriched%20compartments%29> a ex:Mechanism ;
     rdfs:label "CLIC/GEEC (GPI-AP enriched compartments)",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -657,7 +657,7 @@
             ex:geneSymbol "LGALS1" ;
             ex:why "Galectin-1: Like galectin-3, it can assist in clustering glycosylated cargo, but its role is context-dependent and not essential in all cell types." ] .
 
-<http://example.org/mechanism/CLIC/RhoA%20mediated%20Endocytosis> a ex:Mechanism ;
+<https://w3id.org/cpp/dataset/mechanisms/CLIC/RhoA%20mediated%20Endocytosis> a ex:Mechanism ;
     rdfs:label "CLIC/RhoA mediated Endocytosis",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
