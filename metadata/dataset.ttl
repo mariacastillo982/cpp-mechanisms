@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/cpp/dataset/mechanisms>
+  a dcat:Dataset ;
+  dct:title "Cell Penetrating Peptide Endocytic Mechanisms Knowledge Base" ;
+  dct:description "RDF linking endocytic mechanisms with genes, pathways and inhibitors." ;
+  dct:creator [ foaf:name "Maria Gomez" ] ;
+  dct:created "2025-10-19"^^xsd:date ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dcat:keyword "macropinocytosis", "phagocytosis", "endocytosis", "RDF", "FAIR" ;
+  dcat:distribution [
+    a dcat:Distribution ;
+    dct:format "text/turtle" ;
+    dcat:accessURL <https://w3id.org/cpp/dataset/mechanisms.ttl>
+  ], [
+    a dcat:Distribution ;
+    dct:format "application/ld+json" ;
+    dcat:accessURL <https://w3id.org/cpp/dataset/mechanisms.jsonld>
+  ] ;
+  prov:wasGeneratedBy [
+    a prov:Activity ;
+    prov:used <https://w3id.org/cpp/script/json_to_rdf.py> ;
+    prov:endedAtTime "2025-10-19T12:00:00Z"^^xsd:dateTime
+  ] .
+
