@@ -1,0 +1,57 @@
+name: Build & Validate RDF
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/mechanisms.json'
+      - 'src/**'
+      - 'shapes/**'
+      - '.github/workflows/build.yml'
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install rdflib pyshacl
+
+      # Download Apache Jena just for RIOT (since your Makefile uses a local path)
+      - name: Install Jena (for riot)
+        run: |
+          curl -L https://downloads.apache.org/jena/binaries/apache-jena-5.6.0.tar.gz -o jena.tar.gz
+          tar -xzf jena.tar.gz
+          echo "$PWD/apache-jena-5.6.0/bin" >> $GITHUB_PATH
+
+      - name: Build (JSON → RDF)
+        run: |
+          python src/json_to_rdf.py --in data/mechanisms.json --out data/mechanisms.ttl --format turtle
+          python src/json_to_rdf.py --in data/mechanisms.json --out data/mechanisms.jsonld --format json-ld
+
+      - name: Validate RDF syntax (RIOT)
+        run: riot --validate data/mechanisms.ttl
+
+      - name: Validate SHACL
+        run: pyshACL -s shapes/mechanism.shacl.ttl -d data/mechanisms.ttl -m -f human
+
+      # Optional: keep built files as CI artifacts (downloadable from the run page)
+      - name: Upload RDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rdf-build
+          path: |
+            data/mechanisms.ttl
+            data/mechanisms.jsonld
