@@ -1,4 +1,4 @@
-🧬 Cell Penetrating Peptide Uptake Mechanisms (CPP-Mechanisms)
+## 🧬 Cell Penetrating Peptide Uptake Mechanisms (CPP-Mechanisms)
 
 Version: 1.0
 License: CC BY 4.0
@@ -10,7 +10,7 @@ Contact: maria.castillo@kaust.edu.sa
 Base namespace: https://w3id.org/cpp/schema#
 Dataset IRI: https://w3id.org/cpp/dataset/mechanisms
 
-📘 Overview
+## 📘 Overview
 
 The CPP-Mechanisms Knowledge Base is a structured RDF dataset describing the endocytic molecular mechanisms through which cell-penetrating peptides (CPPs) and related cargos enter cells such as macropinocytosis, phagocytosis, clathrin mediated and caveolae mediated endocytosis.
 
@@ -26,7 +26,7 @@ Literature-based evidence (DOIs)
 
 The dataset is published as FAIR, machine-readable RDF and can be queried with SPARQL or reused in ontology-driven analyses.
 
-🗂️ Directory structure
+## 🗂️ Directory structure
 cpp-mechanisms/
 ├── data/
 │   ├── mechanisms.json          # Original JSON input
@@ -42,7 +42,7 @@ cpp-mechanisms/
 │   └── index.html               # Optional landing page for GitHub Pages
 └── README.md                    # This file
 
-🔍 Data model
+## 🔍 Data model
 
 Main classes and relationships used:
 
@@ -57,7 +57,7 @@ ex:evidence	Literature reference (DOI or PubMed link)	<https://doi.org/10.1111/b
 All identifiers are dereferenceable (e.g., Ensembl, ChEBI, Reactome) following the Identifiers.org
  scheme.
 
-⚙️ How it was generated
+## ⚙️ How it was generated
 
 Source JSON manually curated from literature on endocytic uptake pathways.
 
@@ -66,7 +66,7 @@ Converted to RDF using src/json_to_rdf.py
 python src/json_to_rdf.py --in data/mechanisms.json --out data/mechanisms.ttl --format turtle
 
 
-Validation
+## Validation
 
 riot --validate data/mechanisms.ttl
 pyshACL -s shapes/mechanism.shacl.ttl -d data/mechanisms.ttl -m -f human
@@ -77,7 +77,7 @@ Metadata annotated using DCAT, Dublin Core, and PROV-O.
 Published to GitHub Pages and linked via a persistent w3id.org
  URI.
 
-🔗 FAIR implementation summary
+## 🔗 FAIR implementation summary
 FAIR Principle	Implementation
 F1. Findable	Persistent URIs via https://w3id.org/cpp/; metadata in metadata/dataset.ttl
 A1. Accessible	Publicly available on GitHub/Zenodo; HTTP(S) access; CC-BY 4.0 license
@@ -105,7 +105,7 @@ SELECT ?mechanism ?drug ?chebi WHERE {
   ] .
 }
 
-📚 References (examples)
+## 📚 References (examples)
 
 Commisso et al., Cell, 2013 — Macropinocytosis and nutrient uptake.
 
@@ -115,7 +115,7 @@ Palamidessi et al., Curr Biol, 2021 — Cdc42 control in endocytosis.
 
 DOIs: 10.1111/bph.14439 · 10.1016/j.ceb.2025.102563 · 10.1073/pnas.1201573109
 
-🧩 Validation & Quality Control
+## 🧩 Validation & Quality Control
 
 Syntax check: Apache Jena RIOT
 
@@ -123,31 +123,4 @@ Shape validation: pySHACL with shapes/mechanism.shacl.ttl
 
 Ontology reuse check: Verified GO, KEGG, Reactome, ChEBI, and Ensembl IDs resolve through Identifiers.org.
 
-🧾 License
-
-This dataset is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-You are free to share, adapt, and use it commercially with proper attribution.
-
-© 2025 Xavier López — CC BY 4.0
-
-🧮 Citation
-
-If you use this dataset, please cite:
-
-Gomez, M. (2025). CPP Endocytic Mechanisms Knowledge Base (v1.0).
-RDF dataset published at https://w3id.org/cpp/dataset/mechanisms.
-DOI: [Add Zenodo DOI here]
-
-🧱 Contributing
-
-Pull requests are welcome!
-If you add new mechanisms or corrections:
-
-Update data/mechanisms.json
-
-Re-run src/json_to_rdf.py
-
-Validate using SHACL
-
-Update metadata version and changelog
 
