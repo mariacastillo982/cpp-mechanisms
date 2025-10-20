@@ -26,8 +26,9 @@ Literature-based evidence (DOIs)
 ## 🔍 Data model
 
 Main classes and relationships used:
-```
+
 Entity	Description	Example
+```
 ex:Mechanism	Cellular uptake mechanism (e.g. macropinocytosis)	mech:Macropinocytosis
 ex:GateCoreEntry	Core gene enabling internalization	ensembl:ENSG00000121879 (PIK3CA)
 ex:RegulatorEntry	Regulator gene that modulates pathway activity	ensembl:ENSG00000124181 (PLCG1)
