@@ -41,6 +41,37 @@ All identifiers are dereferenceable (e.g., Ensembl, ChEBI, Reactome) following t
 
 ## Validation
 
+#### Validation data (Single Cell Expression Atlas)
+
+We validated the endocytosis knowledge base using public GTEx: snRNAseq atlas from Single Cell Expression Atlas (SCEA), the data used for this validation was:
+
+- Normalised counts files: Untransformed expression values, normalised to counts per million. (MatrixMarket: matrix.mtx[.gz], genes.tsv[.gz], barcodes.tsv[.gz]).
+EMBL-EBI
+- Clustering file: Results of unsupervised louvain clustering at a range of resolution values.
+
+
+1. Load CPM counts & clustering.
+Read the Normalised counts (CPM) and the Clustering file; align barcodes/Cell IDs to get a cell-ID → cluster label for the resolution/label we use. 
+EMBL-EBI
+
+2. Aggregate by cluster (cell type).
+For each cluster label (e.g., “B cell”, “fat cell”, etc.), subset cells and compute per-gene:
+
+Detection fraction = fraction of cells with CPM > 0
+Mean CPM across the cluster
+
+3. Call genes “present.”
+A gene is considered expressed/present in a cluster if it meets either threshold (defaults):
+- detection_fraction ≥ 0.10 (≥10% cells), OR
+- mean CPM ≥ 1.0
+
+4. Write outputs.
+'''
+present_genes_by_cluster.csv: cluster, n_cells, present_ensembl_ids (semicolon-joined)
+cluster_gene_stats.csv: long table (cluster, gene_id, detection_fraction, mean_cpm, present)
+'''
+
+These per-cluster gene sets are then scored against our KB to compute core∪reg and important coverage for each endocytic pathway.
 
 
 ## 🧠 Example SPARQL queries
