@@ -18,14 +18,6 @@ Inputs:
     Presence rule (tunable):
     present == (detection_fraction >= --min-detect-frac) OR (mean_cpm >= --min-cpm)
 
-    Example:
-    python3 scea_make_present_sets.py \
-        --counts-mtx /path/to/normalised_counts/ \
-        --clustering  /path/to/clustering.tsv \
-        --cluster-col cluster \
-        --outdir out_eval/ \
-        --min-detect-frac 0.1 \
-        --min-cpm 1.0
 """
 from __future__ import annotations
 import argparse
