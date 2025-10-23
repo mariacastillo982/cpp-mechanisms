@@ -1,10 +1,8 @@
 """
 Pathway Knowledge Base Validation Framework
 ============================================
-A robust framework for evaluating pathway activation predictions using 
+A framework for evaluating pathway activation predictions using 
 Positive-Unlabeled (PU) learning on single-cell transcriptomics data.
-
-Author: Computational Biology & ML Pipeline
 """
 
 import numpy as np
