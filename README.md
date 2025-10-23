@@ -48,7 +48,6 @@ We validated the endocytosis knowledge base using public GTEx: snRNAseq atlas fr
 - Normalised counts files: Untransformed expression values, normalised to counts per million. (MatrixMarket: matrix.mtx[.gz], genes.tsv[.gz], barcodes.tsv[.gz]).
 - Clustering file: Results of unsupervised louvain clustering at a range of resolution values.
 
-
 1. Load CPM counts & clustering.
 Read the Normalised counts (CPM) and the Clustering file; align barcodes/Cell IDs to get a cell-ID → cluster label for the resolution/label we use. 
 
