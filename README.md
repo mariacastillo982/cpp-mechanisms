@@ -82,11 +82,11 @@ Each pathway was evaluated for precision (lower bound), recall on labeled positi
 |Pathway	Precision | (LB)	| Recall	| Avg. Rank (%) |	CV F1 ± SD|
 |---|---|---|---|---|
 |Phagocytosis	| 0.226	| 1.000	| 74.0	| 0.771 ± 0.390|
-|---|---|---|---|---|
+
 |Macropinocytosis	| 0.322	| 1.000	| 48.3	| 0.541 ± 0.304|
-|---|---|---|---|---|
+
 |Clathrin-mediated endocytosis	| 0.254	| 1.000	| 72.7	| 1.000 ± 0.000|
-|---|---|---|---|---|
+
 |Caveolae-mediated endocytosis	| 0.397	| 1.000	| 67.9	| 0.938 ± 0.081|
 
 Overall, all pathways achieved perfect recall on labeled positives, with average rank percentiles between 48–74% and high F1-scores, confirming consistent detection of known active mechanisms across cell clusters.
