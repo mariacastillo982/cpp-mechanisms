@@ -1,0 +1,40 @@
+﻿cluster,Clathrin-mediated endocytosis,Caveolae-mediated endocytosis,Phagocytosis,Macropinocytosis
+activated macrophage,x,,,
+alveolar macrophage,x,,,
+alveolar macrophage activated,x,,,
+dendritic cell/macrophage,x,,,
+blood vessel endothelial cell,x,x,,
+epithelial cell of prostate,x,x,,x
+epithelial cell of stratum germinativum of esophagus,x,x,,x
+luminal cell of prostate epithelium,x,x,,x
+luminal epithelial cell of mammary gland,x,x,,x
+Epithelial cell (basal),x,x,,x
+endothelial cell of lymphatic vessel,,x,,x
+cardiac blood vessel endothelial cell,,x,,x
+skeletal_muscle_fiber,,x,,
+"skeletal muscle fiber - fast-twitch, cytoplasmic",,x,,
+"skeletal muscle fiber - slow-twitch, cytoplasmic",,x,,
+cardiac muscle cell,,x,,
+fat cell,,x,,
+fibroblast of lung,,x,,x
+fibroblast of esophagus,,x,,x
+fibroblast of connective tissue of prostate,,x,,x
+fibroblast of cardiac tissue,,x,,x
+fibroblast of breast,,x,,x
+neuron,x,,,x
+neuroendocrine cell,x,,,x
+neutrophil,,,x,x
+natural killer cell,,,x,x
+B cell,,,x,x
+T cell,,,x,x
+macrophage,,,x,x
+pericyte/smooth muscle cell,,x,,
+pericyte/smooth muscle cell I,,x,,
+pericyte/smooth muscle cell II,,x,,
+Schwann cell,x,x,x,
+Schwann cell I,x,x,x,
+Schwann cell II,x,x,x,
+Immune (LAMs),,,x,
+Immune (macrophage III),,,x,
+Immune (Langerhans),,,x,
+Immune (mmDC),,,x,
