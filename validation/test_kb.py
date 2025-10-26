@@ -828,9 +828,9 @@ class WeightTuner:
 if __name__ == "__main__":
     # Initialize validator
     validator = PathwayKBValidator(
-        expression_file='/Users/hadmin1/Desktop/GTEx/cluster_gene_expression_2.csv',
-        ground_truth_file='/Users/hadmin1/Desktop/Test_kb/ground_truth.csv',
-        kb_file='/Users/hadmin1/Desktop/CPP_esm/CPP_mechanism_genes_curated_ensembl.json'
+        expression_file='cpp-mechanisms/validation/GTEx/cluster_gene_expression.csv',
+        ground_truth_file='cpp-mechanisms/validation/GTEx/ground_truth.csv',
+        kb_file='cpp-mechanisms/data/mechanisms.json'
     )
     
     # Run pipeline
