@@ -30,10 +30,11 @@ These per-cluster gene sets are then scored against our KB to compute gate_core 
 
 ### Validation Overview
 
-To reproduce the results obtained for validation of the knowledge base, run the file test_kb.py. In summary, the code works as follows:
+To reproduce the results obtained for validation of the knowledge base, run the file test_kb.py. 
+In summary, the code works as follows:
 
 - `PathwayKBValidator` loads expression, ground-truth labels, and pathway KB, then hands the KB rules to `PathwayScorer`.
-- For each cluster–pathway pair, the scorer blends gate_core coverage with regulators coverage using the optimized weights and stores the scores in a tidy table.
+- For each cluster–pathway pair, the scorer blends gate_core coverage with regulators coverage using the optimized weights and stores the scores in a table.
 - `PULearningEvaluator` reuses those scores to report PU metrics (precision lower bound, recall on labeled positives, rank percentiles) and a simple CV F1 with reliable negatives that are being generated.
 - `WeightTuner` can optionally grid-search the core/regulator weights; it reruns scoring and evaluation for every pair, keeps the best objective (average of the existing metrics), and leaves the validator ready for visualization/exports.
 
