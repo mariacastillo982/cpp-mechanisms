@@ -1,8 +1,8 @@
-@prefix ex: <http://example.org/schema#> .
-@prefix mech: <http://example.org/mechanism/> .
+@prefix ex: <http://w3id.org/cpp/schema#> .
+@prefix mech: <http://w3id.org/cpp/dataset/mechanisms> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://example.org/mechanism/CLIC/ARF6%20mediated%20Endocytosis> a ex:Mechanism ;
+<http://w3id.org/cpp/dataset/mechanisms/CLIC/ARF6%20mediated%20Endocytosis> a ex:Mechanism ;
     rdfs:label "CLIC/ARF6 mediated Endocytosis",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -104,7 +104,7 @@
             ex:geneSymbol "ACAP1" ;
             ex:why "ARF6 GAP that regulates transferrin and beta1 integrin recycling; affects recycling but not initial uptake." ] .
 
-<http://example.org/mechanism/CLIC/CDC42%20mediated%20Endocytosis> a ex:Mechanism ;
+<http://w3id.org/cpp/dataset/mechanisms/CLIC/CDC42%20mediated%20Endocytosis> a ex:Mechanism ;
     rdfs:label "CLIC/CDC42 mediated Endocytosis",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -263,7 +263,7 @@
             ex:geneSymbol "CDHR3" ;
             ex:why "DE-cadherin: Core adhesion molecule that accumulates abnormally when Cdc42/Par complex is disrupted; influences junctional stability but is not required to initiate Cdc42-mediated uptake." ] .
 
-<http://example.org/mechanism/CLIC/FEME%20%28Fast%20Endophilin%20Mediated%20Endocytosis%29> a ex:Mechanism ;
+<http://w3id.org/cpp/dataset/mechanisms/CLIC/FEME%20%28Fast%20Endophilin%20Mediated%20Endocytosis%29> a ex:Mechanism ;
     rdfs:label "CLIC/FEME (Fast Endophilin Mediated Endocytosis)",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -517,7 +517,7 @@
             ex:geneSymbol "BIN1" ;
             ex:why "N-BAR protein recruited to FEME carriers to assist in scission and dynein recruitment." ] .
 
-<http://example.org/mechanism/CLIC/GEEC%20%28GPI-AP%20enriched%20compartments%29> a ex:Mechanism ;
+<http://w3id.org/cpp/dataset/mechanisms/CLIC/GEEC%20%28GPI-AP%20enriched%20compartments%29> a ex:Mechanism ;
     rdfs:label "CLIC/GEEC (GPI-AP enriched compartments)",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
@@ -657,7 +657,7 @@
             ex:geneSymbol "ARHGAP10" ;
             ex:why "A RhoGAP protein that inactivates Cdc42, returning it to a cycling state and balancing actin dynamics." ] .
 
-<http://example.org/mechanism/CLIC/RhoA%20mediated%20Endocytosis> a ex:Mechanism ;
+<http://w3id.org/cpp/dataset/mechanisms/CLIC/RhoA%20mediated%20Endocytosis> a ex:Mechanism ;
     rdfs:label "CLIC/RhoA mediated Endocytosis",
         "Clathrin- and Caveolae-Independent Endocytosis (CIE)" ;
     ex:class_ "endocytosis" ;
