@@ -37,8 +37,8 @@ if __name__ == "__main__":
 
 """
 python metadata_to_clustering.py \
-    --metadata "/Users/hadmin1/Desktop/GTEx/E-ANND-2.cells.txt" \
+    --metadata "./GTEx/E-ANND-2.cells.txt" \
     --id_col "Cell ID" \
     --cluster_col "inferred cell type - ontology labels" \
-    --out "/Users/hadmin1/Desktop/GTEx/clustering.tsv"
+    --out "./GTEx/clustering.tsv"
 """
