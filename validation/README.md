@@ -8,20 +8,20 @@ First, run the file metadata_to_clustering.py to obtain the results of unsupervi
 
 ```
 python metadata_to_clustering.py \
-    --metadata "/GTEx/E-ANND-2.cells.txt" \
+    --metadata "cpp-mechanisms/validation/GTEx/E-ANND-2.cells.txt" \
     --id_col "Cell ID" \
     --cluster_col "inferred cell type - ontology labels" \
-    --out "/clustering.tsv"
+    --out "cpp-mechanisms/validation/clustering.tsv"
 ```
 
 Secondly, run the file create_gene_sets.py to transform the normalised counts files (matrix.mtx[.gz], genes.tsv[.gz], barcodes.tsv[.gz]) to cluster_gene_stats.csv that is a table (cluster, gene_id, detection_fraction, mean_cpm, present).
 
 ```
 python create_gene_sets.py \
-    --counts-mtx "/GTEx/E-ANND-2-normalised-files" \
-    --clustering "/GTEx/clustering.tsv" \
+    --counts-mtx "cpp-mechanisms/validation/GTEx/E-ANND-2-normalised-files" \
+    --clustering "cpp-mechanisms/validation/GTEx/clustering.tsv" \
     --cluster-col "cluster" \
-    --outdir "/GTEx/" \
+    --outdir "cpp-mechanisms/validation/GTEx/" \
     --min-detect-frac 0.10 # detection_fraction ≥ 0.10 (≥10% cells)\
     --min-cpm 1.0 # genes with at least 1 count per million reads \
     --accept-prefix ENSG
@@ -30,7 +30,7 @@ These per-cluster gene sets are then scored against our KB to compute gate_core 
 
 ### Validation Overview
 
-To reproduce the results obtained for validation of the knowledge base run the file test_kb.py. In summary the code works as follows:
+To reproduce the results obtained for validation of the knowledge base, run the file test_kb.py. In summary, the code works as follows:
 
 - `PathwayKBValidator` loads expression, ground-truth labels, and pathway KB, then hands the KB rules to `PathwayScorer`.
 - For each cluster–pathway pair, the scorer blends gate_core coverage with regulators coverage using the optimized weights and stores the scores in a tidy table.
