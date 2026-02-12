@@ -15,11 +15,11 @@ The CPP-Mechanisms Knowledge Base is a structured RDF dataset describing the end
 
 # Each mechanism aggregates:
 
-Core and regulatory genes (Ensembl identifiers)
+Genes (Ensembl identifiers)
 
-Relevant pathways (GO, Reactome, KEGG, MSigDB)
+Cellular uptake mechanism (GO)
 
-Known chemical inhibitors (mapped to ChEBI and MeSH)
+Chemical inhibitors (ChEBI)
 
 Literature-based evidence (DOIs)
 
