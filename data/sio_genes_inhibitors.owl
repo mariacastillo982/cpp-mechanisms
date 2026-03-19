@@ -57,6 +57,7 @@ mark wilkinson
 karin verspoor
 natalia villanueva-rosales</dc:contributor>
         <dc:creator xml:lang="en">Michel Dumontier</dc:creator>
+        <terms:accessRights>Open access under CC BY 4.0</terms:accessRights>
         <terms:created>2026-03-19</terms:created>
         <terms:creator>CPP KG Pipeline — https://w3id.org/cpp</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://orcid.org/0000-0003-4727-9435</terms:creator>
@@ -72,7 +73,7 @@ mailing list: http://groups.google.com/group/sio-ontology
         <terms:identifier>https://w3id.org/cpp/dataset/mechanisms</terms:identifier>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-29</terms:issued>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:modified>2026-03-19</terms:modified>
         <terms:rights>free to use,share,modify. modify with attribution [http://creativecommons.org/licenses/by/4.0/].</terms:rights>
         <terms:subject>cell-penetrating peptides; endocytosis; gene regulation; chemical inhibition</terms:subject>
@@ -83,12 +84,15 @@ mailing list: http://groups.google.com/group/sio-ontology
         <vann:preferredNamespaceUri>http://semanticscience.org/resource/</vann:preferredNamespaceUri>
         <void:Dataset rdf:resource="https://w3id.org/cpp/dataset/mechanisms"/>
         <void:uriSpace>http://identifiers.org/ensembl/</void:uriSpace>
+        <void:vocabulary rdf:resource="http://purl.obolibrary.org/obo/"/>
+        <void:vocabulary rdf:resource="http://semanticscience.org/resource/"/>
         <schema:comment>general class inclusion axioms:
 &apos;is part of&apos; some &apos;physical entity&apos; subClassOf &apos;is located in&apos; some &apos;physical entity&apos;
 
 role chains:
 &apos;has capability&apos; o &apos;is realized in&apos; -&gt; &apos;is participant in&apos;</schema:comment>
         <schema:identifier>https://w3id.org/cpp/dataset/mechanisms</schema:identifier>
+        <schema:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://sio.semanticscience.org</rdfs:seeAlso>
         <owl:versionInfo>1.59</owl:versionInfo>
         <dcat:Dataset rdf:resource="https://w3id.org/cpp/dataset/mechanisms"/>
@@ -130,6 +134,12 @@ role chains:
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/accessRights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accessRights"/>
     
 
 
@@ -235,6 +245,12 @@ role chains:
     
 
 
+    <!-- http://rdfs.org/ns/void#vocabulary -->
+
+    <owl:AnnotationProperty rdf:about="http://rdfs.org/ns/void#vocabulary"/>
+    
+
+
     <!-- http://schema.org/comment -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/comment"/>
@@ -244,6 +260,12 @@ role chains:
     <!-- http://schema.org/identifier -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/identifier"/>
+    
+
+
+    <!-- http://schema.org/license -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/license"/>
     
 
 
