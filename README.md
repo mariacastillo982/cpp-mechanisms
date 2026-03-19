@@ -13,15 +13,15 @@ Dataset IRI: https://w3id.org/cpp/dataset/mechanisms
 
 The CPP-Mechanisms Knowledge Base is a structured RDF dataset describing the endocytic molecular mechanisms through which cell-penetrating peptides (CPPs) and related cargos enter cells, such as macropinocytosis, phagocytosis, clathrin-mediated, and caveolae-mediated endocytosis.
 
-# Each mechanism aggregates:
+## Dataset metadata
 
-Genes (Ensembl identifiers)
-
-Cellular uptake mechanism (GO)
-
-Chemical inhibitors (ChEBI)
-
-Literature-based evidence (DOIs)
+| Property | Value |
+|---|---|
+| **IRI** | https://w3id.org/cpp/dataset/mechanisms |
+| **License** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| **Download** | [sio_genes_inhibitors.owl](https://raw.githubusercontent.com/mariacastillo982/CPP_esm/main/Ontology/sio_genes_inhibitors.owl) |
+| **Vocabularies used** | [SIO](http://semanticscience.org/resource/), [GO](http://purl.obolibrary.org/obo/), [ChEBI](http://purl.obolibrary.org/obo/) |
+| **Identifiers** | [Ensembl](http://identifiers.org/ensembl/), [ChEBI](http://identifiers.org/chebi/) |
 
 ## 🔍 Data model
 
