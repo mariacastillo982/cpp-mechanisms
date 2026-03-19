@@ -69,6 +69,7 @@ website: http://semanticscience.org
 email: sio-ontology@googlegroups.com
 mailing list: http://groups.google.com/group/sio-ontology
 </terms:description>
+        <terms:identifier>https://w3id.org/cpp/dataset/mechanisms</terms:identifier>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-29</terms:issued>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
@@ -81,14 +82,18 @@ mailing list: http://groups.google.com/group/sio-ontology
         <vann:preferredNamespacePrefix xml:lang="en">sio</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://semanticscience.org/resource/</vann:preferredNamespaceUri>
         <void:Dataset rdf:resource="https://w3id.org/cpp/dataset/mechanisms"/>
+        <void:uriSpace>http://identifiers.org/ensembl/</void:uriSpace>
         <schema:comment>general class inclusion axioms:
 &apos;is part of&apos; some &apos;physical entity&apos; subClassOf &apos;is located in&apos; some &apos;physical entity&apos;
 
 role chains:
 &apos;has capability&apos; o &apos;is realized in&apos; -&gt; &apos;is participant in&apos;</schema:comment>
+        <schema:identifier>https://w3id.org/cpp/dataset/mechanisms</schema:identifier>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://sio.semanticscience.org</rdfs:seeAlso>
         <owl:versionInfo>1.59</owl:versionInfo>
         <dcat:Dataset rdf:resource="https://w3id.org/cpp/dataset/mechanisms"/>
+        <dcat:accessURL rdf:resource="https://w3id.org/cpp/dataset/mechanisms/2026-03-19"/>
+        <dcat:downloadURL rdf:resource="https://w3id.org/cpp/dataset/mechanisms/2026-03-19"/>
     </owl:Ontology>
     
 
@@ -224,9 +229,21 @@ role chains:
     
 
 
+    <!-- http://rdfs.org/ns/void#uriSpace -->
+
+    <owl:AnnotationProperty rdf:about="http://rdfs.org/ns/void#uriSpace"/>
+    
+
+
     <!-- http://schema.org/comment -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/comment"/>
+    
+
+
+    <!-- http://schema.org/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/identifier"/>
     
 
 
@@ -281,6 +298,18 @@ role chains:
     <!-- http://www.w3.org/ns/dcat#Dataset -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#accessURL -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#downloadURL -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
     
 
 
